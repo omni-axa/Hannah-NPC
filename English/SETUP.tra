@@ -116,7 +116,7 @@ Proficiency Type: Short sword
 
 Not Usable By:
  Cleric~
-@69  = ~The dark conspiracies of the Cowled Wizards made them many enemies. As a consequence, many powerful objects were created to confront them. This one prevents a magician from performing a counter attack with one of his spells when he gets hit.
+@69  = ~The dark conspiracies of the Cowled Wizards made them many enemies. As a consequence, many powerful objects were created to confront them. This one prevents a mage from performing a counter attack with one of his spells when he gets hit.
 
 STATISTICS:
 
@@ -352,14 +352,14 @@ Protection against fire: +30%~
 STATISTICS:
 
 Immunity against cold once a day.
-Protection against cold: +10% ~
+Protection against cold: +10%~
 @124 = ~Nizidramanii'yt~
 @125 = ~Improved hell dragon~
 @126 = ~Ring~
 @127 = ~Ring of Protection against cold~
 @128 = ~A ring is a small band of precious metal that is used as jewelry.  Some rare  rings have had enchantments placed upon them that confer various magical abilities.  These rings are highly sought after, especially by those of the adventuring profession.
 ~
-@129 = ~The origin of this ring is unknown. Perhaps it was created by a magician who tried to travel to a colder region of the elementary plane of water.
+@129 = ~The origin of this ring is unknown. Perhaps it was created by a mage who tried to travel to a colder region of the elementary plane of water.
 
 STATISTICS:
 
@@ -373,9 +373,7 @@ Damage: 1D6
 Damage type: bludgeoning
 Weight: 4
 Speed factor: 4
-Proficiency Type: Staff
-
-Not Usable by:~
+Proficiency Type: Staff~
 @132 = ~Saint Ranan was a hermit with a big heart, who roamed the villages, in order to help people in need. It is said that when he touched a wounded man with his stick, the man was healed, it is also said that he had the power to raise the dead. Saint Ranan was loved by all, as a reward for his services, he only asked for some food to continue his journey. It is said that Saint Ranan was killed by bandits and the power of his staff had been forgotten until now.
 
 STATISTICS:
