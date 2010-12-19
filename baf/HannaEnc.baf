@@ -1,0 +1,52 @@
+IF
+	OnCreation()
+        InParty("Hanna")
+	Global("HannaEncounters","GLOBAL",0)
+	Global("Chapter","GLOBAL",4)
+THEN
+	RESPONSE #100
+		SetGlobal("HannaEncounters","GLOBAL",1)
+		CreateCreature("OGRE01",[488.558],10)
+		CreateCreature("OGRE01",[500.454],10)
+		CreateCreature("OGRE01",[552.476],10)
+		CreateCreature("OGREMA01",[427.548],10)
+		CreateCreature("OGRE01",[525.591],10)
+		CreateCreature("PLSHFG01",[585.542],10)
+END
+
+IF
+	OnCreation()
+        InParty("Hanna")
+	Global("HannaEncounters","GLOBAL",1)
+	GlobalLT("Chapter","GLOBAL",4)
+THEN
+	RESPONSE #100
+		SetGlobal("HannaEncounters","GLOBAL",2)
+		CreateCreature("ORC01",[488.558],10)
+		CreateCreature("ORC01",[500.454],10)
+		CreateCreature("ORC01",[552.476],10)
+		CreateCreature("ORC02",[427.548],10)
+		CreateCreature("ORC03",[525.591],10)
+		CreateCreature("ORC04",[585.542],10)
+		CreateCreature("ORC02",[589.542],10)
+		CreateCreature("HANORC01",[592.542],10)
+END
+
+IF
+	OnCreation()
+        InParty("Hanna") 
+	Global("HannaEncounters","GLOBAL",2)
+	GlobalLT("Chapter","GLOBAL",4)
+THEN
+	RESPONSE #100
+		SetGlobal("HannaEncounters","GLOBAL",3)
+		CreateCreature("SPIDGI01",[416.392],10)
+		CreateCreature("SPIDGI01",[551.412],10)
+		CreateCreature("SPIDPH01",[630.510],10)
+		CreateCreature("SPIDGI01",[470.531],10)
+		CreateCreature("SPIDPH01",[577.584],10)
+		CreateCreature("SPIDWR01",[377.580],10)
+		CreateCreature("SPIDSW01",[589.542],10)
+		CreateCreature("SPIDSW01",[592.542],10)
+END
+

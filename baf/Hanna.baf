@@ -1,0 +1,159 @@
+IF
+	NumTimesTalkedTo(0)
+	See([PC])
+	Range([PC],15)
+THEN
+	RESPONSE #100
+		Dialog([PC])
+END 
+
+IF
+	AreaCheck("AR2000")
+	Global("Hannacaravasar","GLOBAL",0)
+	InParty(Myself)
+	Detect([PC])
+THEN
+	RESPONSE #100
+		StartDialogueNoSet(Player1)
+		SetGlobal("Hannacaravasar","GLOBAL",1)
+END  
+
+IF
+	AreaCheck("AR1904")
+	Global("Hannatroll","GLOBAL",0)
+	InParty(Myself)
+	Detect([PC])
+THEN
+	RESPONSE #100
+		StartDialogueNoSet(Player1)
+		SetGlobal("Hannatroll","GLOBAL",1)
+END
+
+IF
+	AreaCheck("AR0406")
+	Global("HannaCorona","GLOBAL",0)
+	InParty(Myself)
+	Detect([PC])
+THEN
+	RESPONSE #100
+		StartDialogueNoSet(Player1)
+		SetGlobal("HannaCorona","GLOBAL",1)
+END
+
+
+IF
+	InParty("Mazzy")
+        InParty(Myself)
+	Dead("Mazzy")
+	Global("MazzyDie","LOCALS",0)
+THEN
+	RESPONSE #100
+		Interact([PC])
+END
+
+IF
+        InParty("Minsc")
+	InParty(Myself)
+	Dead("Minsc")
+	Global("MinscDie","LOCALS",0)
+THEN
+	RESPONSE #100
+		Interact([PC])
+END
+
+IF
+	InParty(Myself)
+        InParty("Aerie")
+	Dead("Aerie")
+	Global("AerieDie","LOCALS",0)
+THEN
+	RESPONSE #100
+		Interact([PC])
+END
+
+IF
+          Global("HannaQuest1","GLOBAL",1)
+	Global("hannaGiexiste","ar1300",0)
+THEN
+	RESPONSE #100
+		SetGlobal("hannaGiexiste","ar1300",1)
+		CreateCreature("hangi1",[4996.1490],3)
+END
+
+
+IF
+          Global("HannaQuest1","GLOBAL",1)
+	AreaCheck("AR1300")
+	Global("HannaCastillo","GLOBAL",0)
+	InParty(Myself)
+	Detect([PC])
+THEN
+	RESPONSE #100
+		StartDialogueNoSet(Player1)
+END
+
+
+IF
+    Global("HannaFun","LOCALS",0)
+    InParty("Edwin")
+    InParty(Myself)
+    Gender("Edwin",FEMALE)
+    See("Edwin")
+    !StateCheck("Edwin",STATE_SLEEPING)
+    CombatCounter (0)
+THEN
+    RESPONSE #100
+        SetGlobal("HannaFun","LOCALS",1)
+        Interact("Edwin")
+        Continue()
+END
+
+IF
+InParty(Myself)
+InParty("Aerie")
+See("Aerie")
+!StateCheck("Aerie",STATE_SLEEPING)
+CombatCounter(0) 
+HPPercentLT(Myself,15)
+Global("HannaAerieHerida","GLOBAL",0)
+THEN
+    RESPONSE #100
+     Wait(5)
+    Interact("Aerie")
+END
+
+IF
+    Global("HannaFun","LOCALS",1)
+    GlobalTimerExpired("HannaPokesEdwina","GLOBAL")
+    InParty("Edwin")
+    InParty(Myself)
+    Gender("Edwin",FEMALE)
+    See("Edwin")
+    !StateCheck("Edwin",STATE_SLEEPING)
+    CombatCounter(0)
+THEN
+    RESPONSE #100
+	  SetGlobal("HannaFun","LOCALS",2)
+        Interact("Edwin")
+        Continue()
+END
+
+IF
+InParty(Myself)
+GlobalTimerExpired("HannaDialogo","GLOBAL")
+CombatCounter(0)
+!See([ENEMY])
+!Range([NEUTRAL],10)
+OR(2)
+Global("DialogosconHanna","LOCALS",1)
+Global("DialogosconHanna","LOCALS",3)
+THEN
+RESPONSE #100
+IncrementGlobal("DialogosconHanna","LOCALS",1)
+PlaySong(40)
+Interact(Player1)
+END
+
+
+
+

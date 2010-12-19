@@ -1,0 +1,44 @@
+IF
+	Global("troll1","Ar1301",0)
+THEN
+	RESPONSE #100
+		SetGlobal("troll1","AR1301",1)		
+	        CreateCreature("ESTROLL0",[2421.262],0)
+
+END
+
+IF
+	Global("troll2","Ar1301",0)
+THEN
+	RESPONSE #100
+		SetGlobal("troll2","AR1301",1)		
+	        CreateCreature("TROLGI01",[2278.306],0)
+
+END
+
+IF
+	Global("troll3","Ar1301",0)
+THEN
+	RESPONSE #100
+		SetGlobal("troll3","AR1301",1)		
+	        CreateCreature("ESTROLL2",[1347.595],8)
+
+END
+
+IF
+	Global("troll4","Ar1301",0)
+THEN
+	RESPONSE #100
+		SetGlobal("troll4","AR1301",1)		
+	        CreateCreature("TROLL01",[1505.703],8)
+
+END
+
+IF
+	Global("troll5","Ar1301",0)
+THEN
+	RESPONSE #100
+		SetGlobal("troll5","AR1301",1)		
+	        CreateCreature("TROLL01",[1515.706],8)
+
+END

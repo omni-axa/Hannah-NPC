@@ -1,0 +1,15 @@
+IF
+    Global("StartEndBios","AR6200",1)
+    InParty("Hanna")
+    Global("HannaBio","GLOBAL",0)
+THEN
+    RESPONSE #100
+        SetGlobal("HannaBio","GLOBAL",1)
+        TextScreen("Hannaend")
+        SetGlobal("HannaBio","GLOBAL",1)
+        SmallWait(1)
+        SetGlobal("HannaBio","GLOBAL",1)
+        Continue()
+        SetGlobal("HannaBio","GLOBAL",1)
+END
+

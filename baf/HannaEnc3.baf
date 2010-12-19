@@ -1,0 +1,15 @@
+IF
+	OnCreation()
+        InParty("Hanna")
+	Global("HannaEncounters3","GLOBAL",0)
+	Global("Chapter","GLOBAL",6)
+THEN
+	RESPONSE #100
+		SetGlobal("HannaEncounters3","GLOBAL",1)
+		CreateCreature("HAENE01",[488.558],10)
+		CreateCreature("HAENE02",[500.454],10)
+		CreateCreature("HAENE03",[552.476],10)
+		CreateCreature("HAENE04",[427.548],10)
+		CreateCreature("HAENE05",[525.591],10)
+		CreateCreature("HAENE06",[585.542],10)
+END

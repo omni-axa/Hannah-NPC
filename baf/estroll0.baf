@@ -1,0 +1,41 @@
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_CLOAK_OF_FEAR)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_CLOAK_OF_FEAR)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_SUMMON_INSECTS)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_SUMMON_INSECTS)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_CHARM_PERSON)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_CHARM_PERSON)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_COMMAND)
+	!StateCheck(NearestEnemyOf(Myself),STATE_SLEEPING)
+	!StateCheck(NearestEnemyOf(Myself),STATE_HELPLESS)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_COMMAND)
+END
+
+
+IF
+       See(NearestEnemyOf(Myself))
+THEN
+       RESPONSE #100
+       AttackReevaluate(NearestEnemyOf(Myself),30)
+END

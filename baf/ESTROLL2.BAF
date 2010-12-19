@@ -1,0 +1,15 @@
+IF
+	See(NearestEnemyOf(Myself))
+	Global("Enraged","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Enraged","LOCALS",1)
+		SpellNoDec(Myself,BARBARIAN_RAGE)
+END
+
+IF
+       See(NearestEnemyOf(Myself))
+THEN
+       RESPONSE #100
+       AttackReevaluate(NearestEnemyOf(Myself),30)
+END

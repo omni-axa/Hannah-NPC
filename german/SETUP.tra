@@ -1,0 +1,396 @@
+@0   = ~Hanna NPC (Setzt TdB voraus)~ 
+@1   = ~TdB ist nicht installiert~
+@2   = ~Während der langen Reise mit <CHARNAME> lernte Hanna viel über die Werte von Freundschaft und Kameradschaft. Ihr Ruhm als Jägerin nahm sehr zu und während ihren Reisen mit <CHARNAME> besiegte sie die schrecklichsten Kreaturen. Die Nachrichten von ihren Heldentaten verbreiteten sich weit und gelangten bald zu ihrem Dorf, in dem seither Hanna als Heldin, als würdige Erbin des Vermächtnisses ihres Vaters angesehen wurde.~ 
+@3   = ~Hanna~
+@36  = ~Hanna stammt aus einer Familie von Waldläufern, die sich seit Generationen dem Schutz der Bevölkerung in der Umgebung von Myth Drannor verpflichtet hat. Seit sie klein war, ging Hannas Vater in den Wald auf die Jagd nach verschiedenen bösen Kreaturen zur Erhaltung des Friedens und der Gerechtigkeit in der Gemeinde. Manchmal nahm er seine Kinder mit auf seine Patrouillen, und beide begannen das Handwerk ihres Vaters zu erlernen, obwohl dieser Begriff ihrer Mutter nicht gefiel. Jahre später, als sie die Jugend erreichte, starb ihr Vater. Als ihr älterer Bruder die Arbeit seines Vaters übernahm, dachte jeder, dass Hanna nicht auf ihre Rolle als Frau vorbereitet sei. Hanna war verletzt, dass nicht sie die Position einnahm und ging fort und nahm das traditionelle Hüter-Schwert ihrer Familie mit sich. Seitdem durchstreifte sie die Reiche, befasste sich in erster Linie damit, ihre Fähigkeiten zu verbessern, um eines Tages so gut zu werden wie ihr Vater und allen zu zeigen, dass auch Frauen große Jäger von Monstern werden können. Diese Art des Lebens haben Hanna zu einem Waldmenschen gemacht, der sich wenig um soziale Kompetenz kümmert. In einem verlassenen Verlies und mit ihrem Schwert in der Hand fühlt sie sich wohler.~ 
+@37  = ~Shiro~
+@38  = ~Statuette~
+@39  = ~Shiro-Statuette~ 
+@40  = ~Eine kleine Statuette aus Metall in der Form eines Hundes.~
+@41  = ~Hanna fand diese Statue in der Höhle eines Riesen, den sie in den Hügeln besiegte. Wahrscheinlich gehörte sie einem Magier, der dem Riesen als Mittagessen diente. Diese Statue kann Shiro herbeirufen, einen mächtigen Hund aus einer anderen Ebene, der für lange Zeit Hannas einziger Begleiter war.
+
+EIGENSCHAFTEN:
+
+Kann Shiro einmal pro Tag herbeirufen~ 
+@42  = ~Zweihänder-Schwert~
+@43  = ~Hannas Zweihänder-Schwert~
+@44  = ~Beim Zweihänder handelt es sich um eine Weiterentwicklung des Langschwertes. Waffenschmiede sind seit jeher daran interessiert, bereits existierende Waffen noch zu verbessern, was beim Langschwert dazu führte, dass die Klinge verlängert wurde. Schließlich musste auch der Griff verlängert werden und man brauchte nun beide Hände, um das Schwert richtig zu schwingen. Der Zweihänder dient hauptsächlich dazu, berittene Krieger schwer zu verletzen und die Stoßformation eines Heeres aufzubrechen.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W10
+Schadensart: schlitzen
+Gewicht: 15
+Geschwindigkeitsfaktor: 10
+Waffenfertigkeit: Langschwert
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern
+ Dieben~ 
+@45  = ~Dies ist das Schwert aus Hannas Familie, das von Generation zu Generation weitergegeben wurde. Dieses mächtige Schwert erhielt Hanna von ihrem Bruder, als sie ihr Volk verließ, um eine Erinnerung zu haben.
+
+EIGENSCHAFTEN:
+
+Doppelter Schaden gegen böse Kreaturen
+Schaden: 1W10 2 +1 bei Feuerschaden, +1 bei Kälteschaden
+Schadensart: schlitzen
+Gewicht: 15
+Geschwindigkeitsfaktor: 10
+Waffenfertigkeit: Langschwert
+
+Kann nur verwendet werden von:
+ Waldläufern~
+@46  = ~Halskette~ 
+@47  = ~Amulett zum Schutz gegen Tod +5~
+@48  = ~Eine Halskette ist ein Schmuckstück aus Silber, Gold, Platin oder einem ähnlichen Edelmetall. Halsketten werden, wie der Name schon sagt, immer um den Hals getragen. Sie können von beliebiger Länge sein und sind oft mit Edelsteinen verziert.~
+@49  = ~In dieses weiße Amulett sind winzige Runen zum Schutz vor Tod eingraviert. Sehr nützlich gegenüber der großen Macht von Nekromanten.
+
+EIGENSCHAFTEN:
+
+Rettungswurf gegen Tod: Bonus +5~
+@50  = ~Prunkharnisch~ 
+@51  = ~Larrends Prunkharnisch~
+@52  = ~Ein Prunkharnisch stellt die prächtigste Rüstung dar, die man sich als Krieger kaufen kann. Sie sieht nicht nur beeindruckend aus, sondern bietet auch den besten Schutz. Die körpergerecht geformten und eng miteinander verbunden Metallplatten schützen die am meisten gefährdeten Körperbereiche wie Brust-, Bauch- und Leistengegend und wehren sowohl Schläge als auch Pfeile ab. Schultern, Arme und Beine sind mit Kettengeflecht oder zahlreichen Geschübe genannten Metallschienen geschützt, um dem Träger eine möglichst hohe Beweglichkeit zu gewährleisten. Die ganze Rüstung ist mit Gravuren und Prägungen verziert. 
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 1
+Gewicht: 70
+
+Kann nicht verwendet werden von:
+ Barden
+ Druiden
+ Magiern
+ Dieben~ 
+@53  = ~Larrend war einmal ein großer Paladin des Ordens des Strahlenden Herzens. Die Legende erzählt, dass er eines Tages seinen Glauben verlor und verrückt wurde und alle tötete, die seinen Weg kreuzten. Man sagt, die Leichen der Getöteten kamen zurück aus dem Grab, um ihn zu peinigen und in seiner Rüstung zu vernichten. Nun wandert sie auf dem Lande und verbreitet Schrecken wie eine Geisterrüstung, die von Leichnamen begleitet wird, die ebenso töteten und darauf warten, dass jemand dem ein Ende setzt und ihre Seele befreit. Seine silberne Rüstung ist nun schwarz wie sein Herz und hat magische Qualitäten erworben. 
+
+EIGENSCHAFTEN:
+
+Bietet einmal täglich Schutz vor Feuerschaden.
+Rüstungsklasse: 0
+Gewicht: 35
+
+Kann nicht verwendet werden von:
+ Barden
+ Druiden
+ Magiern
+ Dieben~ 
+@54  = ~Armschützer~
+@55  = ~Ork-Krafthandschuhe~ 
+@56  = ~Armschützer sind dicke Bänder aus Metall oder Leder, die mit Gurten oder Riemen an den Unterarmen befestigt werden. In der Regel kommt die magische Kraft, die die Armschützer besitzen, nur im Kampf zum Tragen, da die meisten Armschützer den Träger vor Verletzungen bewahren oder seine Chancen, den Gegner zu treffen, erhöhen. Es gibt jedoch Ausnahmen, auch wenn diese höchst selten sind.~
+@57  = ~Diese Handschuhe sind sehr häufig unter den Anführern der Orks. Sie bieten zusätzliche Kraft, aber die stärksten sind diejenigen, die in den Stammesgebieten und Sippen der Orks herrschen.
+
+EIGENSCHAFTEN:
+
+Gweicht: 2~
+@58  = ~Helm~
+@59  = ~Furchteinflößender Helm~
+@60  = ~Diese Art eines offenen Helms besteht aus verstärktem Leder oder Metall und bedeckt den Großteil des Kopfes mit Ausnahme des Gesichts und des Nackens. Die meisten dieser Helme sind mit einem Nasenschutz versehen.
+
+EIGENSCHAFTEN:
+
+Besonderheit: Schützt gegen kritische Treffer
+Gewicht: 2
+
+Kann nicht verwendet werden von:
+ Magiern
+ Barden
+ Dieben~
+@61  = ~Viele Kriegsherren haben immer geglaubt, dass es der beste Weg sei, um respektiert zu werden, ihren Feinden Terror zu bringen. Aus diesem Grund hat der Kriegsherr Malferidon befohlen, diesen Helm anzufertigen, der unglaublich leistungsstark ist.
+
+EIGENSCHAFTEN:
+Bietet einmal täglich Schutz vor Angst
+Gweicht: 2~
+@62  = ~Kriegsherr der Orks~
+@63  = ~Larrend der Todesritter~
+@64  = ~Troll-Schamane~
+@65  = ~Skelett Magier~
+@66  = ~Dolch~
+@67  = ~Magierkiller~
+@68  = ~Ein typischer Dolch ist mit einer spitzen, normalerweise zweischneidigen Klinge versehen, wodurch er sich von einem Messer unterscheidet. Ein Messer hat nur eine Schneide und ist etwas kürzer als ein Dolch.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4
+Schadensart: Durchbohren
+Gewicht: 1
+Geschwindigkeitsfaktor: 2
+Waffenfertigkeit: Kurzschwert
+
+Kann nicht verwendet werden von:
+ Klerikern~
+@69  = ~In den finsteren Verschwörungen der verhüllten Magier wurden viele Feinde gesucht. Daher wurden viele Objekte gefertigz, um ihnen gegenüberzutreten. Dieser Gegenstand verhindert, dass ein Magier einen Gegenschlag mit einem seiner Zauber ausführt, wenn er Verletzt ist.
+
+EIGENSCHAFTEN:
+
+Wahrscheinlichkeit von 25%, das Objekt 120 Sekunden lang zum Schweigen zu bringen, wenn das Ziel getroffen wird.
+
+Schaden: 1W4 +2
+Schadensart: Durchbohren
+Gewicht: 1
+Geschwindigkeitsfaktor: 2
+Waffenfertigkeit: Kurzschwert
+
+Kann nicht verwendet werden von:
+ Klerikern~
+@70  = ~Stab~
+@71  = ~Stab des Nekromanten~
+@72  = ~Der Kampfstab ist ein 1,80 bis 2,70 m langer Holzstab und somit die einfachste aller Stangenwaffen. Qualitativ hochwertige Kampfstäbe sind aus festem Eichenholz hergestellt und an beiden Enden mit Metall beschlagen. Der Kampfstab wird mit beiden Händen geschwungen.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6
+Schadensart: Zertrümmern
+Gewicht: 4
+Geschwindigkeitsfaktor: 4
+Waffenfertigkeit: Stumpfe Waffen
+
+Kann nicht verwendet werden von:~
+@73  = ~Studenten der schwierigen und gefährlichen Kunst der Nekromantie erstellten Objekte, um etwas Energie zu speichern, weil sie nie wissen, wann sie diese benötigen. Dieser Stab wurde von dem Nekromanten Arkarhatan dem Roten nach einigen gefährlichen Experimenten erstellt, um diese Objekte zu schützen.
+
+EIGENSCHAFTEN:
+
+Widerstand gegen Tod, solange er getragenn wird.
+Einmal pro Tag Untote beschwören und Untote kontrollieren.
+
+Schaden: 1W6 +1
+Schadensart: Zertrümmern
+Gewicht: 4
+Geschwindigkeitsfaktor: 4
+Waffenfertigkeit: Stumpfe Waffen
+
+Kann nicht verwendet werden von:
+ Magiern~
+@74  = ~Riemen~
+@75  = ~Gürtel der Ausdauer~
+@76  = ~Riemen sind im Prinzip das gleiche wie Gürtel, jedoch werden sie nicht zum Festschnüren von Hosen benutzt, sondern zum Tragen von Taschen, Schwertscheiden und ähnlichem.
+
+
+EIGENSCHAFTEN:
+
+Gewicht: 2
+Kann nicht verwendet werden von:~
+@77  = ~Dieser Gürtel wurde magisch verbessert, um die Konstitution des Nutzers zu steigern. Jemand hat einmal gesagt, dass nichts außer einem kräftigen Körper einen Trank besser hält (vermutlich ein betrunkener Zwerg).
+
+EIGENSCHAFTEN:
+
+Gewicht: 2
+Kann nicht verwendet werden von:~
+@78  = ~Lederrüstung~
+@79  = ~Rüstung aus Winterwolfspelz~
+@80  = ~Rüstungsleder wird mit Wachs oder Wasser gehärtet. Es ist dick und fest, nicht weich und geschmeidig wie das Leder, das für die Stiefel eines Waldläufers oder das Gewand eines Druiden verwendet wird. Solches Leder würde nicht mehr Schutz bieten als normale Stoffkleidung.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 8
+Gewicht: 15
+Kann nicht verwendet werden von:
+ Magiern~
+@81  = ~Nur die fähigsten Handwerker in den Reichen sind in der Lage, diese zarten Rüstungen zu machen. Diese Rüstung aus dem weißem Fell des Winterswolfs verbessert das Charisma des Eigentümers, abgesehen von dem hohen Schutz gegen die Kälte des Winters.
+
+EIGENSCHAFTEN:
+
+30% Resistenz gegen Kälte
++ 1 Charisma
+Rüstungsklasse: 8 +1
+Gewicht: 15
+
+Kann nicht verwendet werden von:
+ Magiern~
+@82  = ~Speer~
+@83  = ~Speer des Blitzes~
+@84  = ~Speere zählen zu den ältesten Waffen der Geschichte. Schon die primitivsten Völker benutzten einfache Holzstangen, die an einem Ende angespitzt wurden. Nachdem die Menschen die Metallverarbeitung entdeckt hatten, begannen sie Speerköpfe aus Eisen und Stahl herzustellen. Waffenschmiede experimentierten bald mit unterschiedlichen Formen von Speerköpfen, was zur Entstehung verschiedener Arten von Stangenwaffen führte.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6
+Schadensart: Durchbohren
+Gewicht: 5
+Geschwindigkeitsfaktor: 6
+Waffenfertigkeit: Speer
+
+Kann nicht verwendet werden von:
+ Klerikern
+ Magiern
+ Dieben~
+@85  = ~Die Spitze dieses Speers wurde aus Metallen der Gefallenen Sterne hergestellt und mittels Elektizitätszauber verbessert, wodurch der Speer tödliche elektrische Schläge verteilt, wenn er trifft.
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +2 +4 Elektrizitätsschaden
+Schadensart: Durchbohren
+Gewicht: 5
+Geschwindigkeitsfaktor: 6
+Waffenfertigkeit: Speer
+
+Kann nicht verwendet werden von:
+ Klerikern
+ Magiern
+ Dieben~
+@86  = ~Langbogen~
+@87  = ~Hinterhalt~
+@88  = ~Der Langbogen ist dem Kurzbogen sehr ähnlich. Der einzige Unterschied besteht darin, dass der Bogen fast so groß wie der Bogenschütze ist, normalerweise etwa 1,80 bis 2 m. Obwohl der Langbogen im Einsatz etwas langsamer ist als der Kurzbogen, hat er eine größere Reichweite und eine höhere Treffsicherheit.
+
+EIGENSCHAFTEN:
+
+Schaden:
+ETW0: +1
+Gewicht: 3
+Geschwindigkeitsfaktor: 7
+Waffenfertigkeit: Langbogen
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern
+ Dieben~
+@89  = ~Dieser magische Bogen ist vor allem für Bogenschützen gedacht, die Ihre Feinde mit Pfeilen bedrängen; man schießt damit Pfeile auf die Feinde, die außerhalb ihrer Reichweite zurückkehren und diese erneut angreifen.
+Die Magie des Bogens +3 beschleunigt denjenigen, der ihn verwendet, damit er sich weit von dem Feind zurückziehen kann, wenn dieser seinerseits angreift.
+Zusätzlich erlaubt er dem Benutzer einmal am Tag, eine Illusion von sich zu erzeugen, während es den Benutzer unsichtbar macht. Dies lenkt die Angriffe ab und ermöglicht einen frühzeitigen Rückzug.
+
+EIGENSCHAFTEN:
+
+Beschleunigt den Anwender
+Erzeugt einmal am Tag eine Illusion des Anwenders
+
+ETW0: +4
+Gewicht: 3
+Geschwindigkeitsfaktor: 7
+Waffenfertigkeit: Langbogen
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern
+ Dieben~
+@90  = ~Zarnon~
+@91  = ~Blutrünstiger Rachen~
+@92  = ~Daniela~
+@93  = ~Richard Schwarzmesser~
+@94  = ~Roktar~
+@95  = ~Tobas~
+@96  = ~Dolch der Grabräuber~
+@97  = ~Grabräuber und Schatzsucher benutzen normalerweise diese Art von Dolchen in ihrem Beruf. Sie wissen nie, wann ein Untoter sie überrascht, wenn sie diese Orte erforschen und es ist besser, darauf vorbereitet zu sein.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4 + 2 Doppelter Schaden gegen Untote.
+ETW0: Bonus de +2
+Gewicht: 1
+Geschwindigkeitsfaktor: 0
+Waffenfertigkeit: Kurzschwert
+Waffentyp: einhändig
+
+Kann nicht verwendet werden von:
+Klerikern~
+@98  = ~Baranins Dokumente~
+@99  = ~Das sind Baranins Dokumente. Es sind die Kaufvertrage seines Eigentums.~
+@100 = ~Baranin~
+@101 = ~Brutus~
+@102 = ~Erweiterte De´Arnise Festung~
+@103 = ~Troll Kriegsherr~
+@104 = ~Großer Troll-Schamane~
+@105 = ~Amulett des Troll-Schamanen~
+@106 = ~Das Amulett wurde bei dem leblosen Körper des Großen Troll-Schamanen bei der Festung De'Arnise gefunden. Das Amulett wurde von dem Troll-Schamanen verwendet, um sich bei seinen Ritualen gegen das Böse zu schützen, aber es beeinträchtigt auch das Charisma negativ.
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeit: Immunität gegen Gift
+Der Träger ist immun gegen Stille
+Charisma -2~
+@107 = ~Verbesserter Irenicus~
+@108 = ~Krummsäbel~
+@109 = ~Stachel der Wüstenspinne +3~
+@110 = ~Der Krummsäbel ist ein einschneidiges, gekrümmtes Schwert mit einem schützenden Heft. Im Gegensatz zum Säbel ist seine Klinge jedoch stärker gekrümmt und läuft in eine längere, scharfe Spitze aus. Der Ursprung des Krummsäbels ist zum großen Teil unbekannt, doch ist er schon immer in den südlichen Regionen der Vergessenen Reiche beliebt gewesen.  
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8
+Schadensart: schlitzen
+Gewicht: 4
+Waffenfertigkeit: Langschwert
+Geschwindigkeitsfaktor: 5
+Waffentyp: einhändig
+
+Kann nicht verwendet werden von:
+ Magiern~
+@111 = ~Das Schwert gehörte dem Großsultan Rakashasa, der mit Irenicus im Endkampf war. Die Klinge dieses Schwertes ist mit Spinnengift getränkt und durch einen Kratzer mit ihr kann das Opfer vergiftet werden.
+
+EIGENSCHAFTEN:
+
+Gift-Schaden: 2 Punkte Schaden pro Sekunde
+Dauer der Vergiftung: 10 Sekunden
+ETW0: +3
+Schaden: 1W8+3
+Schadensart: schlitzen
+Gewicht: 3
+Geschwindigkeitsfaktor: 4
+Waffenfertigkeit: Krummsäbel/Wakizashi/Ninja-To
+Waffentyp: einhändig
+
+Kann nicht verwendet werden von:
+ Klerikern
+ Magiern
+ Dieben~
+@112 = ~Umhang~
+@113 = ~Umhang des Elemetarschutzes~
+@114 = ~Form und Stoff eines Umhangs können beliebig sein. Die herkömmlichste Form besteht aus einem kreisrunden Stück Stoff, in das in der Mitte ein Loch für den Kopf eingearbeitet wurde. Der Umhang wird mit einer Kette, Brosche, Kordel oder Nadel zusammengehalten.~
+@115 = ~Gemäß der hervorragendsten Experten ist dieser Umhang am besten geeignet, um die Ebenen zu bereisen. Wie ein weiser Mann einmal sagte: "Man weiß nie, wie das Wetter sein wird."
+
+EIGENSCHAFTEN:
+
+Elektrizitätswiderstand: +30%
+Kältewiderstand: +30%
+Wärmewiderstand: +30%~
+@116 = ~Jon Irenicus~
+@117 = ~Großsultan Rakashasa~
+@118 = ~Verbesserter Höllendschinn~
+@119 = ~Versklavter Dschinn~
+@120 = ~Verbesserter Drachen des Irenicus~
+@121 = ~Amulett~
+@122 = ~gewähltes Frostamulett~
+@123 = ~Das Amulett gehörte einem großen Barbaren-Schamanen. Auserkoren von den Geistern des Berges gab ihm dieses Amulett große Mächte bei der Beherrschung der Kälte.
+
+EIGENSCHAFTEN:
+
+Schutz vor Kälte einmal täglich.
+Kältewiderstand: +10% ~
+@124 = ~Nizidramanii'yt~
+@125 = ~Verbesserter Höllendrache~
+@126 = ~Ring~
+@127 = ~Kältwiderstand-Ring~
+@128 = ~Ein Ring ist ein kleines Band aus wertvollem Metall, das als Schmuck am Finger getragen wird. Einige Ringe sind verzaubert und verleihen magische Fähigkeiten. Sie sind heißbegehrt, insbesondere von Menschen, deren Beruf das Abenteuer ist.~
+@129 = ~Die Herkunft dieses Rings ist unbekannt. Vielleicht wurde er von einem Zauberer herstellt, der versuchte, die Elementar-Ebene der Kälte zu bereisen.
+
+EIGENSCHAFTEN:
+
+Kältewiderstand: +40%~
+@130 = ~Stab des Sankt Ranan~
+@131 = ~Der Kampfstab ist ein 1,80 bis 2,70 m langer Holzstab und somit die einfachste aller Stangenwaffen. Qualitativ hochwertige Kampfstäbe sind aus festem Eichenholz hergestellt und an beiden Enden mit Metall beschlagen. Der Kampfstab wird mit beiden Händen geschwungen.
+EIGENSCHAFTEN:
+
+Schaden: 1W6
+Schadensart: Zertrümmern
+Gewicht: 4
+Geschwindigkeitsfaktor: 4
+Waffenfertigkeit: Stumpfe Waffen
+Kann nicht verwendet werden von:
+~
+@132 = ~Sankt Ranan war ein Eremit mit großem Herzen, der die Dörfer durchstreifte, um den Menschen in Not zu helfen. Man sagte, dass wenn er einen Verwundeten mit seinem Stock berührte, dieser geheilt war, man sagte auch, dass er die Macht hätte, Tote zu erwecken. Sankt Ranan wurde von allen geliebt, denn als Belohnung für seine Dienste bat er nur um einige Lebensmittel, um seine Reise fortzusetzen. Man sagt, dass Sankt Ranan von Banditen getötet wurde und die Macht seines Stabs war bis jetzt vergessen.
+
+EIGENSCHAFTEN:
+
+Besonderheit: wirkt leichte Verletzungen heilen 3 mal pro Tag und auferstehen 1 Mal pro Tag.
+WTW0: +1
+Schaden: 1W6 +1
+Schadensart: Zertrümmern
+Gewicht: 3
+Geschwindigkeitsfaktor: 1
+Waffenfertigkeit: Kampfstab
+Waffentyp: beidhändig
+Kann nur verwendet werden von:
+ Klerikern.~
+@133 = ~Drachen~
+@134 = ~verbesserte Krypta der Karawanserei ~
+@135 = ~Wächter der Krypta~

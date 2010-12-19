@@ -1,0 +1,50 @@
+IF
+	OnCreation()
+        InParty("Hanna")
+	Global("HannaEncounters2","GLOBAL",0)
+	GlobalLT("Chapter","GLOBAL",4)
+THEN
+	RESPONSE #100
+		SetGlobal("HannaEncounters2","GLOBAL",1)
+		CreateCreature("BASLES01",[416.392],10)
+		CreateCreature("BASLES01",[551.412],10)
+		CreateCreature("BASLES01",[630.510],10)
+		CreateCreature("BASGRT01",[470.531],10)
+		CreateCreature("BASLES01",[577.584],10)
+		CreateCreature("BASGRT01",[377.580],10)
+END
+
+IF
+	OnCreation()
+        InParty("Hanna")
+	Global("HannaEncounters2","GLOBAL",1)
+	GlobalLT("Chapter","GLOBAL",4)
+THEN
+	RESPONSE #100
+		SetGlobal("HannaEncounters2","GLOBAL",2)
+		CreateCreature("TROLL01",[416.392],10)
+		CreateCreature("TROLL01",[551.412],10)
+		CreateCreature("TROLL01",[630.510],10)
+		CreateCreature("TROLL01",[470.531],10)
+		CreateCreature("TROLLENS",[577.584],10)
+		CreateCreature("TROLSI01",[377.580],10)
+		CreateCreature("esTROLL0",[589.542],10)
+END
+
+IF
+	OnCreation()
+        InParty("Hanna") 
+	Global("HannaEncounters2","GLOBAL",2)
+	GlobalLT("Chapter","GLOBAL",4)
+THEN
+	RESPONSE #100
+		SetGlobal("HannaEncounters2","GLOBAL",3)
+		CreateCreature("SKELET01",[416.392],10)
+		CreateCreature("SKELET01",[551.412],10)
+		CreateCreature("SKELET01",[630.510],10)
+		CreateCreature("SKELET01",[470.531],10)
+		CreateCreature("ZRU4",[577.584],10)
+		CreateCreature("SKELWA01",[377.580],10)
+		CreateCreature("SKELWA01",[589.542],10)
+		CreateCreature("HANCAB01",[592.542],10)
+END

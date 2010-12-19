@@ -1,0 +1,72 @@
+IF
+	See(NearestEnemyOf(Myself))
+	See(NearestMyGroupOfType)
+	Global("prep","LOCALS",0)
+THEN
+	RESPONSE #100
+		ReallyForceSpell(LastSeenBy(Myself),CLERIC_DEFENSIVE_HARMONY)
+		ReallyForceSpell(LastSeenBy(Myself),CLERIC_STRENGTH_OF_ONE)
+		SetGlobal("prep","LOCALS",1)
+END
+
+IF
+  HaveSpell(CLERIC_DISPEL_MAGIC)
+  OR(2)
+       See(TenthNearestEnemyOfType([0.0.0.CLERIC_ALL.0.0.0]))
+       See(TenthNearestEnemyOfType([0.0.0.MAGE_ALL.0.0.0]))
+  Allegiance(LastSeenBy(Myself),EVILCUTOFF)
+  !Class(LastSeenBy(Myself),INNOCENT)
+  !StateCheck(LastSeenBy(Myself),STATE_INVISIBLE)
+  !StateCheck(LastSeenBy(Myself),STATE_IMPROVEDINVISIBILITY)
+  OR(9)
+       StateCheck(LastSeenBy(Myself),STATE_HASTED)
+       StateCheck(LastSeenBy(Myself),STATE_BLESS)
+       StateCheck(LastSeenBy(Myself),STATE_CHANT)
+       StateCheck(LastSeenBy(Myself),STATE_BLUR)
+       StateCheck(LastSeenBy(Myself),STATE_MIRRORIMAGE)
+       StateCheck(LastSeenBy(Myself),STATE_LUCK)
+       StateCheck(LastSeenBy(Myself),STATE_AID)
+       CheckStatGT(LastSeenBy(Myself),0,STONESKINS)
+       HasBounceEffects(LastSeenBy(Myself))
+  !Range(LastSeenBy(Myself),15)
+  !CheckStatGT(Myself,35,SPELLFAILUREMAGE)
+THEN
+    RESPONSE #100
+             SetGlobalTimer("GBHalfAttack","LOCALS",6)
+             Spell(LastSeenBy(Myself),CLERIC_DISPEL_MAGIC)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_MENTAL_DOMINATION)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_MENTAL_DOMINATION)
+END
+
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_CHARM_PERSON)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_CHARM_PERSON)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_COMMAND)
+	!StateCheck(NearestEnemyOf(Myself),STATE_SLEEPING)
+	!StateCheck(NearestEnemyOf(Myself),STATE_HELPLESS)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_COMMAND)
+END
+
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		AttackReevaluate(NearestEnemyOf(Myself),1)
+END

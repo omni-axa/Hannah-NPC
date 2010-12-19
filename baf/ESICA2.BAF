@@ -1,0 +1,53 @@
+IF
+	Global("YUAN1","Ar1300",0)
+THEN
+	RESPONSE #100
+		SetGlobal("YUAN1","AR1300",1)		
+	        CreateCreature("ICYUAN01",[510.856],8)
+
+END
+
+IF
+	Global("YUAN2","Ar1300",0)
+THEN
+	RESPONSE #100
+		SetGlobal("YUAN2","AR1300",1)		
+	        CreateCreature("ICYUAN01",[657.863],8)
+
+END
+
+IF
+	Global("YUAN3","Ar1300",0)
+THEN
+	RESPONSE #100
+		SetGlobal("YUAN3","AR1300",1)		
+	        CreateCreature("ICYUAN01",[2281.757],2)
+
+END
+
+IF
+	Global("YUAN4","Ar1300",0)
+THEN
+	RESPONSE #100
+		SetGlobal("YUAN4","AR1300",1)		
+	        CreateCreature("ICYUAN03",[2777.841],2)
+
+END
+
+IF
+	Global("YUAN5","Ar1300",0)
+THEN
+	RESPONSE #100
+		SetGlobal("YUAN5","AR1300",1)		
+	        CreateCreature("ICYUAN04",[2676.893],2)
+
+END
+
+IF
+	Global("YUAN6","Ar1300",0)
+THEN
+	RESPONSE #100
+		SetGlobal("YUAN6","AR1300",1)		
+	        CreateCreature("ICYUAN01",[2798.635],11)
+
+END

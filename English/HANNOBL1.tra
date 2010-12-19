@@ -1,0 +1,32 @@
+@0 =~You must help me! It's terrible, terrible...! Miss Hanna, you are renowned around here for your great valor. Please help me.~
+@1 =~Explain yourself, what kind of help do you need?~
+@2 =~I'll start from the beginning. I had spent my entire family fortune in buying some land, and as I was travelling there, I was attacked and lost my documents, my gold... everything... EVERYTHING! It's terrible, I am RUINED!!!~
+@3 =~Do you know exactly who robbed you?~
+@4 =~Stop whining like a baby and tell us who attacked you.~
+@5 =~Give me everything you have now, or I'll kill you.~
+@6 =~It was a giant near the De'Arnise Keep. He was huge, terrible! Usually there are no giants in that area. But this one took advantage of the recent events within the castle, to descend from the mountains and spread fear and terror.~
+@7 =~All right, then we'll look for the giant and recover your documents.~
+@8 =~A giant? This is too much for us, you better look for someone else.~
+@9 =~Give me everything you have now, or we'll finish what the giant started.~
+@10 =~HELP! Everyone will know how evil you are!~
+@11 =~HELP! Thieves, thieves!~
+@12 =~It's okay. I thought you were more courageous. Someone else here might be able to help me.~
+@13 =~Bravery is scarce these days.~
+@14 =~Thank you! Please be careful, that giant is really huge.~
+@15 =~If you return those documents to me, you will make me a very happy man. The giant also has my gold and jewels. You can keep them as a reward.~
+@16 =~The Giant Thief:
+
+We have decided to help a nobleman recover some documents. The documents were stolen by a thieving giant, who can be found in the surroundings of De'Arnise Keep.~
+@17 =~Do you have the documents?~
+@18 =~Not yet, but we're at it.~
+@19 =~Yes, I think. Are these your documents?~
+@20 =~I'm waiting impatiently for your return.~
+@21 =~Thank you, thank you. You can't know how happy I am. Take this dagger. It's magical and you can get a good price for it.~
+@22 =~The Giant Thief:
+
+We defeated the giant and returned Baranin's documents back. Another good deed in our tale.~
+@23 =~<CHARNAME>, this man is in trouble. We need to help him.~
+@24 =~We will do everything in our power to help you.~
+@25 =~<CHARNAME>, why did you do that? This man needs help. If you don't change your attitude, I have no other choice but to leave you.~
+@26 =~The bigger they are, the harder they fall. Let's give that giant a taste of our steel.~
+@27 =~<CHARNAME>, why did you do that? This man needs help. A giant is no match for us.~

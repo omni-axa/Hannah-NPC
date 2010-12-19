@@ -1,0 +1,68 @@
+IF
+	See(NearestEnemyOf(Myself))
+	Global("Prep","LOCALS",0)
+THEN
+	RESPONSE #100
+		ApplySpell(Myself,WIZARD_FIRE_SHIELD_BLUE)
+		ApplySpell(Myself,WIZARD_SPIRIT_ARMOR)
+		ApplySpell(Myself,WIZARD_BLUR)
+		SetGlobal("Prep","LOCALS",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_CONFUSION)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_CONFUSION)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_LIGHTNING_BOLT)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_LIGHTNING_BOLT)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_HORROR)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_HORROR)
+END
+
+
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_CONE_OF_COLD)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_CONE_OF_COLD)
+END
+
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_SKULL_TRAP)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_SKULL_TRAP)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_LARLOCH_MINOR_DRAIN)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_LARLOCH_MINOR_DRAIN)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		Attack(NearestEnemyOf(Myself))
+END

@@ -1,0 +1,7 @@
+IF
+	Global("GuardiaCripexiste","ar2013",0)
+THEN
+	RESPONSE #100
+		SetGlobal("GuardiaCripexiste","ar2013",1)
+		CreateCreature("HAESQ01",[583.409],3)
+END

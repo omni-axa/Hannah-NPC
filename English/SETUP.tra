@@ -1,0 +1,395 @@
+@0   = ~Hanna NPC (ToB required)~ 
+@1   = ~ToB is not installed~
+@2   = ~During the long journey with <CHARNAME>, Hanna learned a lot about the values of friendship and camaraderie. Her fame as a hunter rose very high, and during her journeys alongside <CHARNAME>, she defeated the most terrifying creatures. The news of her exploits spread far and soon arrived at her village, where she soon was seen as a heroine and a worthy heir to the legacy of her father.~ 
+@3   = ~Hanna~
+@36  = ~HANNA comes from a family of rangers, who committed themselves for generations to protect the populace in the region of Myth Drannor. Since she was a small girl, Hanna's father went into the woods to hunt for various evil creatures in order to maintain peace and justice in the community. Sometimes he took Hanna and her brother on his patrols, and both began learning the craft of her father, although it wasn't to their mother's liking. Years later, when she reached her youth, her father died. When her older brother took over his father's work, everyone thought that Hanna was not prepared for her role because of being a woman. Hanna was upset not being offered the position and left, taking with her the traditional guardian sword of her family. Since then she has roamed the realms, primarily working hard at improving her skills, so that one day she will be as good as her father, to show everyone that women can be a successful beast hunter. This life made Hanna a forest person, who possesses little in the way of social skills. She feels better alone in an abandoned dungeon with her sword in hand.~ 
+@37  = ~Shiro~
+@38  = ~Statue~
+@39  = ~Shiro-Statue~ 
+@40  = ~A small metal statue in the form of a dog.~
+@41  = ~Hanna found this statue in the cave of a giant, whom she defeated in the hills. It probably belonged to a mage, who served as the giant's lunch. This statue summons Shiro, a powerful canine from another plane, who hass has been Hanna's only companion for a long time.
+
+STATISTICS:
+
+Can summon Shiro once a day~ 
+@42  = ~Two-handed sword~
+@43  = ~Hanna's Two-handed sword~
+@44  = ~The two-handed sword is a derivative of the long sword. Weapon smiths have always looked for ways to improve existing weapons.  In an effort to improve the long sword, the blade was lengthened.  Eventually, the handle had to be extended and two hands became necessary to properly swing the sword.  The primary function of two-handed swords is cleaving mounted knights and breaking up pike formations.
+
+STATISTICS:
+
+Damage:  1D10
+Damage type:  slashing
+Weight: 15
+Speed Factor: 10
+Proficiency Type: Two Handed sword
+Type:  2-handed
+Requires: 14 Strength
+
+Not Usable By:
+   Druid
+   Cleric
+   Mage
+   Thief~ 
+@45  = ~This is the guardian sword of Hanna's family, passed down from generation to generation. Hanna received this powerful sword from her brother when she left her people, so she would have a memory of where she comes from.
+
+STATISTICS:
+
+Double Damage against evil creatures
+Damage: 1D10+2 +1 fire damage, +1 cold damage
+Damage type: Slashing
+Weight: 15
+Speed factor: 10
+Proficiency Type: Long sword
+
+Only usable by:
+ Ranger~
+@46  = ~Necklace~ 
+@47  = ~Amulet of Protection against Death +5~
+@48  = ~A necklace is a piece of ornamental metal jewelry usually made of silver, gold, platinum, or other precious metals, and adorned with gems. A necklace is always worn on the neck and can be of any length.~
+@49  = ~This white amulet is engraved with tiny runes to protect against death. It is very useful in fights against powerful necromancers.
+
+STATISTICS:
+
+Saving throw against death: +5~
+@50  = ~Full Plate Mail  ~ 
+@51  = ~Larrend's Full Plate Mail  ~
+@52  = ~Full plate armor is the best armor a warrior can buy, both in appearance and protection. The perfectly fitted interlocking plates are specially angled to deflect arrows and blows, and the entire suit is carefully adorned with rich engraving and embossed detail.
+
+STATISTICS:
+
+AC: 1
+Weight: 70
+
+Not Usable By:
+ Bard, Druid, Mage, Thief~ 
+@53  = ~Larrend once was a great paladin of the Order of the Radiant Heart. Legend tells that one day he lost his faith, went mad and killed all who crossed his path. They say the dead bodies of the victims returned from their graves to torment him, slaying him while in his armor. Now the armor travels the country, spreading terror as a ghost armor, accompanied by murderous dead bodies, waiting for somebody to put an end to their existence and to release their souls. The once silver armor is now black as was Larrend's heart and it has acquired magical powers.
+
+STATISTICS:
+
+Provides protection against fire damage once a day.
+AC: 0
+Weight: 35
+
+Not Usable By:
+ Bard, Druid, Mage, Thief~ 
+@54  = ~Bracers~
+@55  = ~Gloves of Ogre Strength~ 
+@56  = ~Bracers are thick bands of metal or leather that are strapped, belted, or tied to a character's forearm. In general, the magical power, which the bracers possess the only plays in combat, since most sleeves protect the wearer against injury or increase his chances to hit the enemy. There are exceptions, though these are extremely rare.~
+@57  = ~These gloves are very common among the leaders of orc tribes. They offer additional strength as only the strongest and most prevailing can rule in the orc tribes.
+
+STATISTICS:
+
+Weight: 2~
+@58  = ~Helmet~
+@59  = ~Fear-inspiring helmet~
+@60  = ~This class of open-face helmet, made of reinforced leather or metal, covers most of the head, save the face and neck. These helmets commonly provide protection for the nose.
+
+
+STATISTICS:
+
+Special ability: Protects against critical hits
+Weight: 2
+
+Not Usable By:
+ Mage, Bard, Thief~
+@61  = ~Many warlords have always believed that the best way to be respected was to bring terror to their enemies. For this reason, the warlord Malferidon ordered this incredibly powerful helmet to be crafted.
+
+STATISTICS:
+Provides protection from fear once a day
+Weight: 2~
+@62  = ~Orc Warlord~
+@63  = ~Larrend the Deathknight~
+@64  = ~Troll Shaman~
+@65  = ~Skeleton Mage~
+@66  = ~Dagger~
+@67  = ~Magebane~
+@68  = ~The typical dagger has a pointed, usually double-edged blade, as opposed to a knife, which has a single edge and is a bit shorter than the dagger.
+
+STATISTICS:
+
+Damage: 1D4
+Damage type: piercing
+Weight: 1
+Speed factor: 2
+Proficiency Type: Short sword
+
+Not Usable By:
+ Cleric~
+@69  = ~The dark conspiracies of the Cowled Wizards made them many enemies. As a consequence, many powerful objects were created to confront them. This one prevents a magician from performing a counter attack with one of his spells when he gets hit.
+
+STATISTICS:
+
+25% probability to silence the target for 120 seconds on hit.
+
+Damage: 1D4+2
+Damage type: piercing
+Weight: 1
+Speed factor: 2
+Proficiency Type: Short sword
+
+Not Usable By:
+ Cleric~
+@70  = ~Quarterstaff~
+@71  = ~Staff of the Necromancer~
+@72  = ~The simplest and humblest of staff weapons, the quarterstaff is a length of wood ranging six to nine feet in length. High quality quarterstaffs are made of stout oak and are shod with metal at both ends.  The quarterstaff must be wielded with both hands.
+
+STATISTICS:
+
+Damage: 1D6
+Damage type: bludgeoning
+Weight: 4
+Speed factor: 4
+Proficiency Type: Staff
+
+Not Usable by:~
+@73  = ~Students of the difficult and dangerous art of necromancy create these objects to store certain amounts of magic energy, because they never know when they will need it. This rod was created by the necromancer Arkarhatan the Red after some dangerous experiments in order to protect these objects.
+
+STATISTICS:
+
+Resistance against death when worn.
+Summon undead and control undead once a day, 
+
+Damage: 1D6 +1
+Damage type: bludgeoning
+Weight: 4
+Speed factor: 4
+Proficiency Type: Staff
+
+Not Usable By:
+ Mage~
+@74  = ~Girdle~
+@75  = ~Girdle of Endurance~
+@76  = ~Girdles are generally similar to belts.  Unlike belts, girdles are not used to hold up pants and dungarees, but to carry pouches, scabbards, and the like.
+
+STATISTICS:
+
+Weight: 2
+Not Usable By:~
+@77  = ~This girdle was magically enhanced to increases the wearer's constitution. Someone once said that nothing is better than a strong body if you are in for a drink (probably a drunken dwarf).
+
+STATISTICS:
+
+Weight: 2
+Not Usable By:~
+@78  = ~Leather Armor~
+@79  = ~Winter wolf fur armor~
+@80  = ~Basic armor made of thick, wax or water-hardened leather.  It is sturdy protection, not supple like boots or a cloak. Soft garment leathers like that would offer no more protection than common clothing.
+
+STATISTICS:
+
+AC: 8
+Weight: 15
+Not Usable By:
+ Mage~
+@81  = ~Only the most skilled craftsmen in the realms are able to craft these delicate armors. This armor made of the white fur of the winter wolf improves the charisma of the wearer, as well as providing a high level of protection against the winter cold.
+
+STATISTICS:
+
+30% resistance against cold
++ 1 Charisma
+AC: 8 +1
+Weight: 15
+
+Not Usable By:
+ Mage~
+@82  = ~Spear~
+@83  = ~Spear of lightning~
+@84  = ~One of man's earliest weapons, dating back to the most primitive of times, the first spears were simply wooden poles or sticks sharpened at one end. When man mastered metals, spearheads were made from iron and steel. Having reached this end, weapon crafters began experimenting with different types of spear heads, thus leading to the development of certain polearm types.
+
+
+STATISTICS:
+
+Damage: 1D6
+Damage type: piercing
+Weight: 5
+Speed factor: 6
+Proficiency Type: Spear
+
+Not Usable By:
+ Cleric
+ Mage
+ Thief~
+@85  = ~The tip of this spear was made of metals fallen from the stars and enhanced with an electricity spell, giving the spear the power to deal fatal electric shocks, if it hits.
+
+STATISTICS:
+
+Damage: 1D6+2 +4 electricity damage
+Damage type: piercing
+Weight: 5
+Speed factor: 6
+Proficiency Type: Spear
+
+Not Usable By:
+ Cleric
+ Mage
+ Thief~
+@86  = ~Long bow~
+@87  = ~Ambush~
+@88  = ~The long bow is similar to the short bow, except that the staff is about as high as the archer is, usually 6 to 6.5 feet.  It has two advantages over the short bow: better range and hence, it is much more accurate.
+
+STATISTICS:
+
+Damage:
+THAC0: +1
+Weight: 3
+Speed factor: 7
+Proficiency Type: Long bow
+
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief~
+@89  = ~This magic bow is designed mainly for archers to harass the enemy with arrows, shooting arrows at the enemy, moving out of their reach and attacking them again. The magic of this bow hastens the person who uses it, so he can run from the enemy if the latter counters the attack.
+
+In addition, it allows the wielder to create an illusion of himself once a day, while at the same time turning him invisible. This detracts the attacks and allows for an early withdrawal.
+
+STATISTICS:
+
+Hastens the wielder
+Creates an illusion of the wielder once a day
+
+THAC0: +4
+Weight: 3
+Speed factor: 7
+Proficiency Type: Long bow
+
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief~
+@90  = ~Zarnon~
+@91  = ~Bloody mouth~
+@92  = ~Daniela~
+@93  = ~Richard Blackknife~
+@94  = ~Roktar~
+@95  = ~Tobas~
+@96  = ~Dagger of grave robbers~
+@97  = ~Grave robbers and treasure hunters usually use this type of daggers on their hunts. Never knowing when the next undead takes them by surprise when they explore those places and it is better to be prepared for such events.
+
+STATISTICS:
+
+Damage: 1D4 + 2
+Double Damage against undead
+THAC0: Bonus +2
+Weight: 1
+Speed factor: 0
+Proficiency Type: Short sword
+Type: one-handed
+
+Not Usable By:
+Cleric~
+@98  = ~Baranin's documents~
+@99  = ~These are Baranin's documents. It is a purchase contract concerning his property.~
+@100 = ~Baranin~
+@101 = ~Brutus~
+@102 = ~Expanded De´Arnise Keep~
+@103 = ~Troll Warlord~
+@104 = ~Greater Troll Shaman~
+@105 = ~Amulet of the Troll Shaman~
+@106 = ~The amulet was found on the lifeless body of the Greater Troll Shaman in the fortress De'Arnise. The Amulet was used by the troll shaman to protect himself against evil during his rituals, but it also affects the charisma negatively.
+
+STATISTICS:
+
+Special Ability: Immunity to poison
+The wearer is immune to silence
+Charisma -2~
+@107 = ~Improved Irenicus~
+@108 = ~Scimitar~
+@109 = ~Sting of the desert spider +3~
+@110 = ~The long, curved, single-edged blade is characteristic of both the saber and the scimitar, even though their origins lie in different parts of Faerun. Whereas the saber was intended mainly for horsemen, mainly due to its versatility, the scimitar has a heavier oriental influence.
+
+STATISTICS:
+
+Damage: 1D8
+Damage type: Slashing
+Weight: 4
+Proficiency Type: Long sword
+Speed factor: 5
+Type: one-handed
+
+Not Usable By:
+ Mage~
+@111 = ~The sword belonged to Sultan Rakashasa, who died in the final battle with Irenicus. The blade of this sword is impregnated with spider venom and a slightest cut with it poisons the victim.
+
+STATISTICS:
+
+Poison damage: 2 damage points per second
+Duration of the poisoning: 10 seconds
+THAC0: +3
+Damage: 1D8+3
+Damage type: Slashing
+Weight: 3
+Speed factor: 4
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type: one-handed
+
+Not Usable By:
+ Cleric
+ Mage
+ Thief~
+@112 = ~Robe~
+@113 = ~Robe of elemental defense~
+@114 = ~Form and material of a cloak can vary. The most conventional form consists of a circular piece of cloth, which has a hole for the head incorporated in the middle. The cloak is held together by a chain, brooch, pin or cord.~
+@115 = ~According to the most outstanding experts this robe is the best clothing available to travel the planes. As a wise man once said: "You never know what the weather will be."
+
+STATISTICS:
+
+Protection against electricity: +30%
+Protection against cold: +30%
+Protection against fire: +30%~
+@116 = ~Jon Irenicus~
+@117 = ~Great Sultan Rakashasa~
+@118 = ~Improved hell djinn~
+@119 = ~Enslaved Djinn~
+@120 = ~Improved Dragon of Irenicus ~
+@121 = ~Amulet~
+@122 = ~Frost amulet of the Chosen~
+@123 = ~The amulet belonged to a great barbarian shaman. Chosen by the spirits of the mountain, the amulet gave him great powers to control the cold.
+
+STATISTICS:
+
+Immunity against cold once a day.
+Protection against cold: +10% ~
+@124 = ~Nizidramanii'yt~
+@125 = ~Improved hell dragon~
+@126 = ~Ring~
+@127 = ~Ring of Protection against cold~
+@128 = ~A ring is a small band of precious metal that is used as jewelry.  Some rare  rings have had enchantments placed upon them that confer various magical abilities.  These rings are highly sought after, especially by those of the adventuring profession.
+~
+@129 = ~The origin of this ring is unknown. Perhaps it was created by a magician who tried to travel to a colder region of the elementary plane of water.
+
+STATISTICS:
+
+Protection against cold: +40%~
+@130 = ~Staff of Saint Ranan~
+@131 = ~The simplest and humblest of staff weapons, the quarterstaff is a length of wood ranging six to nine feet in length. High quality quarterstaffs are made of stout oak and are shod with metal at both ends.  The quarterstaff must be wielded with both hands.
+
+STATISTICS:
+
+Damage: 1D6
+Damage type: bludgeoning
+Weight: 4
+Speed factor: 4
+Proficiency Type: Staff
+
+Not Usable by:~
+@132 = ~Saint Ranan was a hermit with a big heart, who roamed the villages, in order to help people in need. It is said that when he touched a wounded man with his stick, the man was healed, it is also said that he had the power to raise the dead. Saint Ranan was loved by all, as a reward for his services, he only asked for some food to continue his journey. It is said that Saint Ranan was killed by bandits and the power of his staff had been forgotten until now.
+
+STATISTICS:
+
+Special ability: can heal minor injuries 3 times per day and Raise from death once a day.
+THAC0: +1
+Damage: 1D6 +1
+Damage type: bludgeoning
+Weight: 3
+Speed factor: 1
+Proficiency Type: Staff
+Type: two-handed
+Only usable by:
+ Cleric.~
+@133 = ~Dragon~
+@134 = ~Improved crypt of the caravanserai~
+@135 = ~Guardian of the crypt~

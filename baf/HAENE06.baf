@@ -1,0 +1,31 @@
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		AttackReevaluate(LastSeenBy(Myself),30)
+END
+
+IF
+	AttackedBy([ANYONE],DEFAULT)
+THEN
+	RESPONSE #100
+		Attack(LastAttackerOf(Myself))
+END
+
+IF
+  StateCheck(Myself,STATE_POISONED)
+  HasItemEquiped("POTN20",Myself)
+THEN
+    RESPONSE #100
+             SetInterrupt(FALSE)
+             UseItem("POTN20",Myself)
+END
+
+IF
+	HasItem("POTN52",Myself)
+	HPPercentLT(Myself,50)
+THEN
+	RESPONSE #100
+		UseItem("POTN52",Myself)
+END
