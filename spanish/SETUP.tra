@@ -1,0 +1,410 @@
+@0    = ~Hanna NPC (Requiere ToB)~
+@1    = ~ToB No instalado~
+@2    = ~Después de viajar con <CHARNAME> durante mucho tiempo Hanna aprendió muchos valores sobre la amistad y el compañerismo. Su fama como cazadora creció mucho pues en sus viajes con <CHARNAME> había derrotado a las más terribles criaturas. Las noticias de sus hazañas viajaron lejos y pronto llegaron a su pueblo desde donde entonces se consideró a Hanna una heroína una digna heredera del legado de su padre.~
+@3    = ~Hanna~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@36   = ~Hanna proviene de una gran familia de exploradores, dedicados a proteger su pueblo en las cercanias de Myth Drannor durante generaciones. Desde pequeños, el padre de Hanna se adentraba en el bosque y perseguía a diversas criaturas malignas para preservar la paz y la justicia en el pueblo. En ocasiones se llevaba a sus hijos en sus patrullas, y ambos comenzaron a aprender el oficio de su padre aunque esto nunca le termino de gustar a su madre . Años mas tarde, llegando a la mocedad, su padre murió. Su hermano mayor se hizo cargo del trabajo de su padre, Todos creyeron que Hanna no estaba preparada por ser una mujer. Hanna se sitió dolida de no ser ella la que desempeñara el puesto y se fue, llevándose la espada de guardian tradicional de su familia. Desde entonces vaga por los Reinos, dedicada sobre todo a perfeccionar sus ya de por sí habilidades, para conseguir algún día llegar a ser tan buena como su padre Y demostrar a todos que una mujer también puede ser una gran cazadora de monstruos. Esta forma de vida han  hecho a Hanna una montaraz, poco preocupada por las habilidades sociales. En una mazmorra olvidada y con su espada en las manos es como se encuentra mas a gusto.~
+@37   = ~Shiro~
+@38   = ~Estatuilla~
+@39   = ~Estatuilla de Shiro~
+@40   = ~Una pequeña estatuilla de metal en forma de perro.~
+@41   = ~Hanna  encontró esta estatuilla un la guarida de un gigante de las colinas que derroto. Probablemente esta perteneció a un mago que sirvió de almuerzo al gigante. Esta estatuilla permite invocar a Shiro un poderoso perro de otro plano que a sido el único compañero de Hanna durante mucho tiempo.
+ESTADISTICAS:
+
+Invocar a Shiro una vez al dia~
+@42   = ~Espada de dos puños~
+@43   = ~Espada de dos puños de Hanna~
+@44   = ~La espada de dos puños es una variación de la espada larga. Los armeros buscan siempre la forma de mejorar las armas que ya existen y para mejorar la espada larga, alargaron la hoja. Finalmente, hubo que extender la empuñadura, por lo que se hizo necesario utilizar ambas manos. La función principal de la espada de dos puños es partir en dos a los caballeros montados y dispersar las formaciones en pica.
+
+ESTADISTICAS:
+
+Daño: 1D10
+Tipo de daño: cuchillada
+Peso: 15
+Factor de velocidad: 10
+Tipo de talento: Espada larga
+No lo puede usar:
+El druida
+El clérigo
+El mago
+El ladrón~
+@45   = ~Esta es la espada de la familia de Hanna que a pasado de generación en generación. Esta poderosa espada le fue entregada a Hanna por su hermano cuando abandono su pueblo para que tuviera un recuerdo.
+
+
+ESTADISTICAS:
+
+Doble de Daño contra criaturas malignas
+Daño: 1D10+2 +1 de daño de fuego +1 de daño frio
+Tipo de daño: cuchillada
+Peso: 15
+Factor de velocidad: 10
+Tipo de talento: Espada larga
+Solo lo puede usar: El explorador~
+@46   = ~Collar~
+@47   = ~Amuleto de protección contra muerte +5~
+@48   = ~Los collares son piezas ornamentales de joyería en metal que se suelen elaborar con plata, oro, platino u otro metal precioso que se adorna con gemas. Se llevan siempre en el cuello y pueden tener cualquier longitud.~
+@49   = ~Este amuleto de color blanco tiene grabadas unas minúsculas runas de protección para evitar a la muerte. Muy útil para enfrentarse a nigromantes de gran poder.
+
+ESTADISTICAS:
+
+Tiros de protección contra muerte: bonificador +5~
+@50   = ~Armadura completa~
+@51   = ~Armadura completa de Larrend~
+@52   = ~La armadura blindada completa es la mejor armadura que puede comprar un guerrero, tanto en aspecto como en protección. Las chapas entrecruzadas, ajustadas perfectamente, están especialmente orientadas para desviar flechas y golpes y todo el traje está cuidadosamente adornado con ricos detalles grabados y repujados.  
+
+ESTADISTICAS:
+
+Clase de armadura: 1
+Peso: 70
+No lo puede usar:
+ El bardo
+ El druida
+ El mago
+ El ladrón~
+@53   = ~Larrend fue en su día un gran paladín de la orden del muy Radiante Corazón. Cuenta la leyenda que un día perdió la fe y enloqueció matando a todos los que encontró en su camino. Dicen que los cadáveres de las personas que mato volvieron de la tumba para atormentarle y lo consumieron dentro de su armadura. Ahora vaga por los campos sembrando el terror como una armadura fantasma acompañado por los cadáveres que el mismo mato esperando que alguien acabe con ellos y libere su alma. Su plateada armadura ahora es negra como su corazón y ha adquirido cualidades magicas.
+
+ESTADISTICAS:
+
+Lanza escudo igneo azul una vez al día.
+Clase de armadura: 0
+Peso: 35
+No lo puede usar:
+El bardo
+El druida
+El mago
+El ladrón~
+@54   = ~Brazales~
+@55   = ~Guanteletes de fuerza Orca.~
+@56   = ~Los brazales son gruesas bandas de metal o de cuero que van atadas con correas al antebrazo del personaje. Por lo general, la magia infundida en los brazales sólo sirve durante el combate, ya que la mayoría de ellos sirven para proteger a su portador de las lesiones y aumentar las posibilidades de golpear al contrincante. Sin embargo hay excepciones y cada día se producen más.~
+@57   = ~Estos guantes son muy comunes entre los lideres orcos. Proporcionándole una fuerza extra ya que los mas fuertes son los que mandan en la tribus y clanes orcos.
+
+ESTASDISTICAS:
+
++1 a la fuerza cuando se llevan equipados.
+Peso 2~
+@58   = ~Casco~
+@59   = ~Yelmo aterrador~
+@60   = ~Esta clase de casco de rostro descubierto, hecho con cuero reforzado o con metal, cubre casi toda la cabeza, salvo la cara y el cuello. Estos cascos suelen incluir una protección para la nariz.
+
+ESTADISTICAS:
+
+Bonificador de clase de armadura: Ninguno
+Especial: Protege contra golpes críticos
+Peso: 2
+No lo puede usar:
+El mago
+El bardo
+El ladrón~
+@61   = ~Muchos señores de la Guerra siempre han creído que la mejor forma de que los respeten es llevando el terror a sus enemigo. Ese fue el caso del Señor de la guerra Malferidon que se mando construir este yelmo de increíble poder.
+
+ESTASDISTICAS:
+
+Lanza capa del miedo una vez al dia.
+Peso 2~
+@62   = ~Señor de la guerra orco~
+@63   = ~Larrend el Caballero de la Muerte~
+@64   = ~Troll Chaman~
+@65   = ~Esqueleto Mago~
+@66   = ~Daga~
+@67   = ~Asesina de magos~
+@68   = ~La daga típica tiene una hoja puntiaguda de doble filo, al contrario que el cuchillo, que sólo tiene un filo y es un poco más corto que la daga.
+
+ESTADISTICAS:
+
+Daño: 1D4
+Tipo de daño: perforación
+Peso: 1
+Factor de velocidad: 2
+Tipo de talento: Espada pequeña
+No lo puede usar:
+El clérigo~
+@69   = ~En las siniestras conspiraciones de los magos encapuchados se han buscado muchos enemigos. Lo cual ha hecho que se creen muchos objetos para enfrentarse a ellos. Este objeto evita que un mago contraataque con uno de sus conjuros si es herido con el.
+
+ESTADISTICAS:
+
+Posibilidad de 25% de silenciar al objetivo 120 segundos al golpear
+
+Daño: 1D4 +2
+Tipo de daño: perforación
+Peso: 1
+Factor de velocidad: 2
+Tipo de talento: Espada pequeña
+No lo puede usar:
+El clérigo~
+@70   = ~Bastón~
+@71   = ~Bastón del Nigromante ~
+@72   = ~Es la más sencilla y humilde de las armas de palo. La barra es una madera de 180 a 275 centímetros de largo. Una buena barra está hecha de madera de roble y va rematada con metal en ambos extremos. La barra se debe empuñar con ambas manos.
+
+ESTADISTICAS:
+
+Daño: 1D6
+Tipo de daño: Contundente
+Peso: 4
+Factor de velocidad: 4
+Tipo de talento: Armas sin punta
+No lo puede usar:~
+@73   = ~Los estudiosos del difícil y peligroso arte de la nigromancia crean objetos para almacenar algo de poder, nunca se saben cuando lo van a necesitar. Este bastón fue creado por el Nigromante Arkarhatan el rojo, tras hacer peligrosos experimentos creo este bastón para protegerse el mismo de sus creaciones.
+
+ESTADISTICAS:
+
+Resistencia contra muerte mientras se lleva
+Una vez al dia lanza invocar muerto viviente y controlar muerto viviente
+
+Daño: 1D6 +1
+Tipo de daño: Contundente
+Peso: 4
+Factor de velocidad: 4
+Tipo de talento: Armas sin punta
+No lo puede usar: Los magos~
+@74   = ~Fajín~
+@75   = ~Cinto de Aguante~
+@76   = ~Los fajines son parecidos a los cinturones. Pero los fajines no se utilizan para sujetarse los pantalones, sino para llevar bolsas, vainas y cosas similares.
+
+ESTADISTICAS:
+
+Peso: 2
+No lo puede usar:~
+@77   = ~Este cinto esta bendecido mágicamente para mejorar la constitución de su usuario. Alguien dijo alguna vez, que nada como un cuerpo fuerte para aguantar mejor la bebida (Probablemente un enano borracho).
+
+ESTADISTICAS:
+
+Peso: 2
+No lo puede usar:~
+@78   = ~Armadura de cuero~
+@79   = ~Armadura de pieles de lobo de invierno~
+@80   = ~La armadura de cuero, a pesar de la falsa creencia extendida, no es suave y fina como el cuero que se utiliza para las botas de los exploradores o para las túnicas de los druidas. Este tipo de cuero no ofrece una protección mejor que la vestimenta habitual.
+
+ESTADISTICAS:
+
+Clase de armadura: 8
+Peso: 15
+No lo puede usar:
+El mago~
+@81   = ~Solo los mas hábiles artesanos de los reinos son capaces de confeccionar estas delicadas armaduras. Esta armadura de pieles de color blanco, fabricada de las pieles de un lobo de invierno realzan el carisma de su propietario, además de ser de una gran protección contra el frió del duro invierno.
+
+ESTADISTICAS:
+
+30 % de resistencia al frio
++ 1 al carisma
+Clase de armadura: 8 +1
+Peso: 15
+No lo puede usar:
+El mago~
+@82   = ~Lanza~
+@83   = ~Lanza de Rayo~
+@84   = ~Es una de las primeras armas que utilizó el hombre y se remonta a los tiempos más remotos. Las primeras lanzas no eran más que varas o palos de madera con una punta afilada. Cuando el hombre dominó el arte del metal, las puntas de lanza se hacían de hierro o acero. Llegado este punto, los armeros comenzaron a experimentar diferentes tipos de puntas de lanza, lo que condujo al desarrollo de nuevos tipos de lanzas.
+
+ESTADISTICAS:
+
+Daño: 1D6
+Tipo de daño: Perforante
+Peso: 5
+Factor de velocidad: 6
+Tipo de talento: Lanza
+No lo puede usar:
+El clérigo
+El mago
+El ladrón~
+@85   = ~La punta de esta lanza a sido creada a partir de metales caídos de las estrellas, mejorada mediante conjuros eléctricos esta lanza infringe mortíferas descargas eléctricas cuando golpea.
+
+ESTADISTICAS:
+
+Daño: 1D6 +2 +4 de daño electrico
+Tipo de daño: Perforante
+Peso: 5
+Factor de velocidad: 6
+Tipo de talento: Lanza
+No lo puede usar:
+El clérigo
+El mago
+El ladrón~
+@86   = ~Arco largo~
+@87   = ~Emboscada~
+@88   = ~El arco largo es parecido al corto, salvo en que la vara es de la misma altura que el arquero, de 180 a 190 centímetros. Disfruta de mayor alcance que el arco corto y, por lo tanto, de mucha más precisión.
+
+ESTADISTICAS:
+
+Daño:
+GAC0: +1
+Peso: 3
+Factor de velocidad: 7
+Tipo de talento: Arcos
+No lo puede usar:
+El druida
+El clérigo
+El mago
+El ladrón~
+@89   = ~Este arco mágico está destinado sobre todo a emplearse en todo tipo de partidas de arqueros que actúan acosando con sus flechas al enemigo, retirándose fuera de su alcance un volviendo a atacar.
+La magia del arco +3 acelera a aquel que lo emplea, de forma que pueda retirarse lejos del enemigo cuando éste contraataca
+Además, permite al lanzador, una vez al día, invocar un doble ilusorio de sí mismo, mientras vuelve invisible al usuario. Esto distrae los ataques y permite una pronta retirada.
+
+ESTADISTICAS:
+
+Acelera a su propieratario
+Una vez al dia lanza doble ilusorio
+
+GAC0: +4
+Peso: 3
+Factor de velocidad: 7
+Tipo de talento: Arcos
+No lo puede usar:
+El druida
+El clérigo
+El mago
+El ladrón~
+@90   = ~Zarnon~
+@91   = ~Fauces Sangrientas~
+@92   = ~Daniela~
+@93   = ~Richard Cuchillo Negro~
+@94   = ~Roktar~
+@95   = ~Tobas~
+@96   = ~Daga del saqueador de tumbas~
+@97   = ~Los saqueadores de tumbas y los caza tesoros utilizan normalmente este tipo de dagas en su profesión. Nunca se sabe cuando un muerto viviente puede sorprenderte explorando estos lugares y es mejor estar preparado.
+ESTADISTICAS:
+
+Daño: 1D4 + 2 Doble de daño contra muertos vivientes.
+GAC0: bonificador de +2
+Peso: 1
+Factor de velocidad: 0
+Tipo de talento: Espada pequeña
+Tipo: a 1 mano
+No lo puede usar:
+Clérigo~
+@98   = ~Documentos de Baranin~
+@99   = ~Estos son los documentos de Baranin. En ellos están las escrituras de sus pertenencias.~
+@100  = ~Baranin~
+@101  = ~Brutus~
+@102  = ~Castillo De´Arnise Mejorado~
+@103  = ~Caudillo Troll~
+@104  = ~Gran Chaman Troll~
+@105  = ~Amuleto del Chaman Troll~
+@106  = ~Encontrado en el cuerpo sin vida del Gran Chaman Troll del Castillo De´Arnise. Este amuleto era usado por el Chaman Troll para protegerse en sus malvados rituales, pero también  afecta de forma negativa al carisma.
+ESTADISTICAS:
+
+Aptitudes poseídas: Inmunidad a venenos
+El portador es inmune al silencio
+Carisma -2.~
+@107  = ~Irenicus Mejorado~
+@108  = ~Cimitarra~
+@109  = ~Aguijón de la araña de desierto +3~
+@110  = ~La cimitarra, muy similar al sable, es una espada curva de un solo filo con una empuñadura protectora. La hoja sigue una gran curva que acaba en una punta larga y afilada. Los orígenes de la cimitarra son completamente desconocidos aunque son muy populares en las regiones del sur de los Reinos Olvidados.  
+
+ESTADISTICAS:
+
+Daño: 1D8
+Tipo de daño: Cuchillada
+Peso: 4
+Tipo de talento: Espadas largas
+Factor de velocidad: 5
+Tipo: a 1 mano
+No lo puede usar:
+Mago
+~
+@111  = ~Esta espada pertenecía al Gran Sultán Rakashasa que estaba con Irenicus en la batalla final. La hoja de esta espada esta impregnada con veneno de arañas un rasguño con ella y la victima podrá quedar envenenada.
+
+ESTADISTICAS:
+
+Daño por veneno: 2 puntos de daño por segundo
+Duración del veneno: 10 segundos
+TAC0: +3
+Daño: 1d8+3
+Tipo de daño: cortante
+Peso: 3
+Factor de velocidad: 4
+Talento marcial: cimitarra/wakizashi/ninja-to
+Tipo: una mano
+No permitido a:
+ Clérigo
+ Mago
+ Ladrón~
+@112  = ~Manto~
+@113  = ~Manto de Protección Elemetal~
+@114  = ~El manto puede tener cualquier forma y hacerse con cualquier tipo de tela. La forma más habitual es una pieza redonda de tela con un agujero en el centro para la cabeza, con la tela drapeada desde el cuello con una cadena, un broche, un cordón o alfileres.~
+@115  = ~Según los mas destacados expertos esta capa es la mas apropiada para viajar a los planos. Según dijo un sabio alguna vez “nunca se sabe el tiempo que hará fuera”.
+
+ESTADISTICAS:
+Resistencia a la electricidad: +30%
+Resistencia al frio: +30%
+Resistencia al calor: +30%~
+@116  = ~Jon Irenicus~
+@117  = ~Gran Sultan Rakashasa~
+@118  = ~Genio del Infierno mejorado~
+@119  = ~Genio esclavizado~
+@120  = ~Dragon de Irenicus mejorado~
+@121  = ~Amuleto~
+@122  = ~Amuleto del elegido de la escarcha~
+@123  = ~Este amuleto perteneció a un gran chaman bárbaro. Elegido por los espíritus de la montaña le entregaron este amuleto que le proporcionaba grandes poderes sobre el dominio del frió.
+
+ESTADISTICAS:
+
+Lanza cono de frió una vez al día.
+Resistencia al frió: +10%~
+@124  = ~Nizidramanii'yt~
+@125  = ~Dragon del infierno mejorado~
+@126  = ~Anillo~
+@127  = ~Anillo de resistencia el Frió~
+@128  = ~Un anillo es una pequeña banda de metal precioso que se utiliza como joya. Algunos anillos poco comunes han tenido encantamientos que confieren varias propiedades mágicas. Estos anillos son muy buscados, especialmente por aquéllos que se dedican a las aventuras.~
+@129  = ~El origen de este anillo es desconocido. Quizás fuera fabricado por un mago que pretendió viajar al plano elemental del frió.
+
+ESTADISTICAS:
+
+Resistencia al frió: +40%~
+@130  = ~Bastón de San Ranan~
+@131  = ~Es la más sencilla y humilde de las armas de palo. La barra es una madera de 180 a 275 centímetros de largo. Una buena barra está hecha de madera de roble y va rematada con metal en ambos extremos. La barra se debe empuñar con ambas manos.
+
+ESTADISTICAS:
+
+Daño: 1D6
+Tipo de daño: aplastamiento
+Peso: 4
+Factor de velocidad: 4
+Tipo de talento: Armas sin punta
+No lo puede usar:
+~
+@132  = ~San Ranan era un ermitaño de gran corazón que recorría las aldeas ayudando a los necesitados. Se decía que cuando tocaba a un herido con su bastón este sanaba, también se decía que tenia hasta el poder de resucitar a los muertos. San Ranan era muy querido por todos pues según cuenta solo pedía por sus servicios algo de comida para proseguir sus viajes. Según cuenta San Ranan fue muerto por unos bandidos y el poder de su bastón a caído en el olvido hasta la fecha.
+
+ESTADISTICAS:
+
+Especial: Lanza curar heridas leves 3 veces al día y resucitar 1 vez al día.
+TAC0: +1
+Daño: 1D6 +1
+Tipo de daño: Contundente
+Peso: 3
+Factor de velocidad: 1
+Talento marcial: Bastón
+Tipo: dos manos
+Permitido a: Clérigo.~
+@133  = ~Dragón~
+@134  = ~Cripta de Caravasar mejorada~
+@135  = ~Guardian de la Cripta~
