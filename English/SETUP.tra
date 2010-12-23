@@ -82,7 +82,7 @@ STATISTICS:
 
 Weight: 2~
 @58  = ~Helmet~
-@59  = ~Fear-inspiring helmet~
+@59  = ~Helm of Courage~
 @60  = ~This class of open-face helmet, made of reinforced leather or metal, covers most of the head, save the face and neck. These helmets commonly provide protection for the nose.
 
 
@@ -93,7 +93,7 @@ Weight: 2
 
 Not Usable By:
  Mage, Bard, Thief~
-@61  = ~Many warlords have always believed that the best way to be respected was to bring terror to their enemies. For this reason, the warlord Malferidon ordered this incredibly powerful helmet to be crafted.
+@61  = ~Many warlords have always believed that the best way to be respected was to bring terror to their enemies. To protect himself from this danger, the warlord Malferidon ordered this incredibly powerful helmet to be crafted.
 
 STATISTICS:
 Provides protection from fear once a day
@@ -103,7 +103,7 @@ Weight: 2~
 @64  = ~Troll Shaman~
 @65  = ~Skeleton Mage~
 @66  = ~Dagger~
-@67  = ~Magebane~
+@67  = ~Dagger +2: ‘Magebane’~
 @68  = ~The typical dagger has a pointed, usually double-edged blade, as opposed to a knife, which has a single edge and is a bit shorter than the dagger.
 
 STATISTICS:
@@ -173,7 +173,7 @@ STATISTICS:
 Weight: 2
 Not Usable By:~
 @78  = ~Leather Armor~
-@79  = ~Winter wolf fur armor~
+@79  = ~Winter Wolf Fur Armor~
 @80  = ~Basic armor made of thick, wax or water-hardened leather.  It is sturdy protection, not supple like boots or a cloak. Soft garment leathers like that would offer no more protection than common clothing.
 
 STATISTICS:
@@ -182,7 +182,7 @@ AC: 8
 Weight: 15
 Not Usable By:
  Mage~
-@81  = ~Only the most skilled craftsmen in the realms are able to craft these delicate armors. This armor made of the white fur of the winter wolf improves the charisma of the wearer, as well as providing a high level of protection against the winter cold.
+@81  = ~Only the most skilled craftsmen in the realms are able to craft these delicate armors. This armor made of the white fur of the winter wolf improves the charisma of the wearer, as well as providing a high level of protection against the winter chill.
 
 STATISTICS:
 
@@ -194,7 +194,7 @@ Weight: 15
 Not Usable By:
  Mage~
 @82  = ~Spear~
-@83  = ~Spear of lightning~
+@83  = ~Spear of Lightning~
 @84  = ~One of man's earliest weapons, dating back to the most primitive of times, the first spears were simply wooden poles or sticks sharpened at one end. When man mastered metals, spearheads were made from iron and steel. Having reached this end, weapon crafters began experimenting with different types of spear heads, thus leading to the development of certain polearm types.
 
 
@@ -210,7 +210,7 @@ Not Usable By:
  Cleric
  Mage
  Thief~
-@85  = ~The tip of this spear was made of metals fallen from the stars and enhanced with an electricity spell, giving the spear the power to deal fatal electric shocks, if it hits.
+@85  = ~The tip of this spear was made of metals found in the fallen stars and enhanced with an electricity spell, giving the spear the power to deal fatal electric shocks, if it hits.
 
 STATISTICS:
 
@@ -225,7 +225,7 @@ Not Usable By:
  Mage
  Thief~
 @86  = ~Long bow~
-@87  = ~Ambush~
+@87  = ~Long bow +1: ‘Ambush’~
 @88  = ~The long bow is similar to the short bow, except that the staff is about as high as the archer is, usually 6 to 6.5 feet.  It has two advantages over the short bow: better range and hence, it is much more accurate.
 
 STATISTICS:
@@ -261,13 +261,13 @@ Not Usable By:
  Mage
  Thief~
 @90  = ~Zarnon~
-@91  = ~Bloody mouth~
+@91  = ~Bloody Mouth~
 @92  = ~Daniela~
 @93  = ~Richard Blackknife~
 @94  = ~Roktar~
 @95  = ~Tobas~
-@96  = ~Dagger of grave robbers~
-@97  = ~Grave robbers and treasure hunters usually use this type of daggers on their hunts. Never knowing when the next undead takes them by surprise when they explore those places and it is better to be prepared for such events.
+@96  = ~Dagger of the Grave Robbers~
+@97  = ~Grave robbers and treasure hunters usually use these type of daggers on their hunts. Never knowing when the next undead takes them by surprise when they explore those places and it is better to be prepared for such events.
 
 STATISTICS:
 
@@ -281,7 +281,7 @@ Type: one-handed
 
 Not Usable By:
 Cleric~
-@98  = ~Baranin's documents~
+@98  = ~Baranin's Documents~
 @99  = ~These are Baranin's documents. It is a purchase contract concerning his property.~
 @100 = ~Baranin~
 @101 = ~Brutus~
@@ -289,7 +289,7 @@ Cleric~
 @103 = ~Troll Warlord~
 @104 = ~Greater Troll Shaman~
 @105 = ~Amulet of the Troll Shaman~
-@106 = ~The amulet was found on the lifeless body of the Greater Troll Shaman in the fortress De'Arnise. The Amulet was used by the troll shaman to protect himself against evil during his rituals, but it also affects the charisma negatively.
+@106 = ~This amulet was found on the lifeless body of the Greater Troll Shaman in the De'Arnise Keep. The Amulet was used by the troll shaman to protect himself against evil during his rituals, but it also affects one’s charisma negatively.
 
 STATISTICS:
 
@@ -298,7 +298,7 @@ The wearer is immune to silence
 Charisma -2~
 @107 = ~Improved Irenicus~
 @108 = ~Scimitar~
-@109 = ~Sting of the desert spider +3~
+@109 = ~Scimitar +3: ‘Sting of the Desert Spider’~
 @110 = ~The long, curved, single-edged blade is characteristic of both the saber and the scimitar, even though their origins lie in different parts of Faerun. Whereas the saber was intended mainly for horsemen, mainly due to its versatility, the scimitar has a heavier oriental influence.
 
 STATISTICS:
@@ -331,7 +331,7 @@ Not Usable By:
  Mage
  Thief~
 @112 = ~Robe~
-@113 = ~Robe of elemental defense~
+@113 = ~Robe of Elemental Defense~
 @114 = ~Form and material of a cloak can vary. The most conventional form consists of a circular piece of cloth, which has a hole for the head incorporated in the middle. The cloak is held together by a chain, brooch, pin or cord.~
 @115 = ~According to the most outstanding experts this robe is the best clothing available to travel the planes. As a wise man once said: "You never know what the weather will be."
 
@@ -342,11 +342,11 @@ Protection against cold: +30%
 Protection against fire: +30%~
 @116 = ~Jon Irenicus~
 @117 = ~Great Sultan Rakashasa~
-@118 = ~Improved hell djinn~
+@118 = ~Improved Hell Djinn~
 @119 = ~Enslaved Djinn~
 @120 = ~Improved Dragon of Irenicus ~
 @121 = ~Amulet~
-@122 = ~Frost amulet of the Chosen~
+@122 = ~Frost Amulet of the Chosen~
 @123 = ~The amulet belonged to a great barbarian shaman. Chosen by the spirits of the mountain, the amulet gave him great powers to control the cold.
 
 STATISTICS:
@@ -354,12 +354,12 @@ STATISTICS:
 Immunity against cold once a day.
 Protection against cold: +10%~
 @124 = ~Nizidramanii'yt~
-@125 = ~Improved hell dragon~
+@125 = ~Improved Hell Dragon~
 @126 = ~Ring~
-@127 = ~Ring of Protection against cold~
+@127 = ~Ring of Protection against Cold~
 @128 = ~A ring is a small band of precious metal that is used as jewelry.  Some rare  rings have had enchantments placed upon them that confer various magical abilities.  These rings are highly sought after, especially by those of the adventuring profession.
 ~
-@129 = ~The origin of this ring is unknown. Perhaps it was created by a mage who tried to travel to a colder region of the elementary plane of water.
+@129 = ~The origin of this ring is unknown. Perhaps it was created by a mage who tried to travel to a colder reaches of the elementary plane of water.
 
 STATISTICS:
 
@@ -374,7 +374,7 @@ Damage type: bludgeoning
 Weight: 4
 Speed factor: 4
 Proficiency Type: Staff~
-@132 = ~Saint Ranan was a hermit with a big heart, who roamed the villages, in order to help people in need. It is said that when he touched a wounded man with his stick, the man was healed, it is also said that he had the power to raise the dead. Saint Ranan was loved by all, as a reward for his services, he only asked for some food to continue his journey. It is said that Saint Ranan was killed by bandits and the power of his staff had been forgotten until now.
+@132 = ~Saint Ranan was a hermit with a big heart, who travelled among the villages, in order to help people in need. It is said that when he touched a wounded man with his stick, the man was healed, it is also said that he had the power to raise the dead. Saint Ranan was loved by all, as a payment for his services, he only asked for some food to continue his journey. It is said that Saint Ranan was killed by bandits and the power of his staff had been forgotten until now.
 
 STATISTICS:
 
@@ -389,5 +389,5 @@ Type: two-handed
 Only usable by:
  Cleric.~
 @133 = ~Dragon~
-@134 = ~Improved crypt of the caravanserai~
-@135 = ~Guardian of the crypt~
+@134 = ~Improved Crypt of the Caravanserai~
+@135 = ~Guardian of the Crypt~
