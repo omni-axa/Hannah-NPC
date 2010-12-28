@@ -1,20 +1,20 @@
 @0   = ~Hanna NPC (ToB required)~ 
 @1   = ~ToB is not installed~
-@2   = ~During the long journey with <CHARNAME>, Hanna learned a lot about the values of friendship and camaraderie. Her fame as a hunter rose very high, and during her journeys alongside <CHARNAME>, she defeated the most terrifying creatures. The news of her exploits spread far and soon arrived at her village, where she soon was seen as a heroine and a worthy heir to the legacy of her father.~ 
+@2   = ~During the long journey with <CHARNAME>, Hanna learnt a lot about the values of friendship and camaraderie. Her fame as a ranger rose very high, and during her journeys alongside <CHARNAME>, she defeated the most terrifying creatures. The news of her exploits spread far and soon returned to her village, where she did not take much time to be seen as a heroine and a worthy heir to the legacy of her father.~ 
 @3   = ~Hanna~
-@36  = ~HANNA comes from a family of rangers, who committed themselves for generations to protect the populace in the region of Myth Drannor. Since she was a small girl, Hanna's father went into the woods to hunt for various evil creatures in order to maintain peace and justice in the community. Sometimes he took Hanna and her brother on his patrols, and both began learning the craft of her father, although it wasn't to their mother's liking. Years later, when she reached her youth, her father died. When her older brother took over his father's work, everyone thought that Hanna was not prepared for her role because of being a woman. Hanna was upset not being offered the position and left, taking with her the traditional guardian sword of her family. Since then she has roamed the realms, primarily working hard at improving her skills, so that one day she will be as good as her father, to show everyone that women can be a successful beast hunter. This life made Hanna a forest person, who possesses little in the way of social skills. She feels better alone in an abandoned dungeon with her sword in hand.~ 
+@36  = ~HANNA comes from a family of rangers, who committed themselves for generations to protect the populace in the region of Myth Drannor. Since she was a small girl, Hanna's father went into the woods to hunt for various evil creatures in order to maintain peace and justice in the community. Sometimes he took Hanna and her brother on his patrols, and both began learning the craft of her father, although it was not to their mother's liking. Years later, when she reached her youth, her father died. When her older brother took over his father's work, everyone thought that Hanna was not prepared for her role because of being a woman. Hanna was upset about not being offered the position and left, taking with her the traditional guardian sword of her family. Since then she has roamed the realms, primarily working hard at improving her skills, so that one day she will be as good as her father, to show everyone that z woman can be a successful beast hunter. This life made Hanna a person of the woods, who possesses little in the way of social skills. She feels better alone in an abandoned dungeon with her sword in hand.~ 
 @37  = ~Shiro~
 @38  = ~Statue~
-@39  = ~Shiro-Statue~ 
+@39  = ~Shiro Statue~ 
 @40  = ~A small metal statue in the form of a dog.~
-@41  = ~Hanna found this statue in the cave of a giant, whom she defeated in the hills. It probably belonged to a mage, who served as the giant's lunch. This statue summons Shiro, a powerful canine from another plane, who hass has been Hanna's only companion for a long time.
+@41  = ~Hanna found this statue in the cave of a giant, who she defeated in the hills. It probably belonged to a mage, who served as the giant's lunch. This statue summons Shiro, a powerful canine from another plane, who has has been Hanna's only companion for a long time.
 
 STATISTICS:
 
 Can summon Shiro once a day~ 
 @42  = ~Two-handed sword~
 @43  = ~Hanna's Two-handed sword~
-@44  = ~The two-handed sword is a derivative of the long sword. Weapon smiths have always looked for ways to improve existing weapons.  In an effort to improve the long sword, the blade was lengthened.  Eventually, the handle had to be extended and two hands became necessary to properly swing the sword.  The primary function of two-handed swords is cleaving mounted knights and breaking up pike formations.
+@44  = ~The two-handed sword is a derivative of the long sword.  Weaponsmiths have always looked for ways to improve existing weapons.  In an effort to improve the long sword, the blade was lengthened.  Eventually, the handle had to be extended and two hands became necessary to properly swing the sword.  The primary function of two-handed swords is cleaving mounted knights and breaking up pike formations.
 
 STATISTICS:
 
@@ -22,60 +22,65 @@ Damage:  1D10
 Damage type:  slashing
 Weight: 15
 Speed Factor: 10
-Proficiency Type: Two Handed sword
+Proficiency Type: Two-Handed Sword
 Type:  2-handed
 Requires: 14 Strength
-
 Not Usable By:
-   Druid
-   Cleric
-   Mage
-   Thief~ 
-@45  = ~This is the guardian sword of Hanna's family, passed down from generation to generation. Hanna received this powerful sword from her brother when she left her people, so she would have a memory of where she comes from.
+ Druid
+ Cleric
+ Mage 
+ Thief~ 
+@45  = ~This is the guardian sword of Hanna's family, passed down from generation to generation. Hanna received this powerful sword from her brother when she left her people, so she would have a memory of where she came from.
 
 STATISTICS:
 
 Double Damage against evil creatures
-Damage: 1D10+2 +1 fire damage, +1 cold damage
-Damage type: Slashing
+
+Damage: 1D10 +2 +1 fire damage, +1 cold damage
+Damage type:  slashing
 Weight: 15
 Speed factor: 10
-Proficiency Type: Long sword
+Proficiency Type: Two-Handed Sword
 
-Only usable by:
+Only Usable by:
  Ranger~
 @46  = ~Necklace~ 
 @47  = ~Amulet of Protection against Death +5~
-@48  = ~A necklace is a piece of ornamental metal jewelry usually made of silver, gold, platinum, or other precious metals, and adorned with gems. A necklace is always worn on the neck and can be of any length.~
+@48  = ~A necklace is a piece of ornamental metal jewelry usually made of silver, gold, platinum, or other precious metals, and adorned with gems.  A necklace is always worn on the neck and can be of any length.  ~
 @49  = ~This white amulet is engraved with tiny runes to protect against death. It is very useful in fights against powerful necromancers.
 
 STATISTICS:
 
-Saving throw against death: +5~
++5 bonus to save vs. death~
 @50  = ~Full Plate Mail  ~ 
 @51  = ~Larrend's Full Plate Mail  ~
-@52  = ~Full plate armor is the best armor a warrior can buy, both in appearance and protection. The perfectly fitted interlocking plates are specially angled to deflect arrows and blows, and the entire suit is carefully adorned with rich engraving and embossed detail.
+@52  = ~Full plate armor is the best armor a warrior can buy, both in appearance and protection.  The perfectly fitted interlocking plates are specially angled to deflect arrows and blows, and the entire suit is carefully adorned with rich engraving and embossed detail.  
 
 STATISTICS:
 
-AC: 1
+Armor Class: 1
 Weight: 70
-
+Requires: 15 Strength
 Not Usable By:
- Bard, Druid, Mage, Thief~ 
-@53  = ~Larrend once was a great paladin of the Order of the Radiant Heart. Legend tells that one day he lost his faith, went mad and killed all who crossed his path. They say the dead bodies of the victims returned from their graves to torment him, slaying him while in his armor. Now the armor travels the country, spreading terror as a ghost armor, accompanied by murderous dead bodies, waiting for somebody to put an end to their existence and to release their souls. The once silver armor is now black as was Larrend's heart and it has acquired magical powers.
+ Bard
+ Druid
+ Mage
+ Thief~ 
+@53  = ~Larrend once was a great paladin of the Order of the Radiant Heart. Legend says that one day he lost his faith, went mad and murdered all who crossed his path. They say the souls of the victims returned from their graves to torment him, slaying him while in his armor. Now the armor travels the country, spreading terror as a ghost armor, accompanied by murderous souls, waiting for someone to put an end to their existence and to release them. The once silver armor is now black as was Larrend's heart and has acquired magical powers.
 
 STATISTICS:
 
 Provides protection against fire damage once a day.
-AC: 0
+Armor Class: 0
 Weight: 35
-
 Not Usable By:
- Bard, Druid, Mage, Thief~ 
+ Bard
+ Druid
+ Mage
+ Thief~ 
 @54  = ~Bracers~
 @55  = ~Gloves of Ogre Strength~ 
-@56  = ~Bracers are thick bands of metal or leather that are strapped, belted, or tied to a character's forearm. In general, the magical power, which the bracers possess the only plays in combat, since most sleeves protect the wearer against injury or increase his chances to hit the enemy. There are exceptions, though these are extremely rare.~
+@56  = ~Bracers are thick bands of metal or leather that are strapped, belted, or tied to a character's forearm. ~
 @57  = ~These gloves are very common among the leaders of orc tribes. They offer additional strength as only the strongest and most prevailing can rule in the orc tribes.
 
 STATISTICS:
@@ -83,16 +88,17 @@ STATISTICS:
 Weight: 2~
 @58  = ~Helmet~
 @59  = ~Helm of Courage~
-@60  = ~This class of open-face helmet, made of reinforced leather or metal, covers most of the head, save the face and neck. These helmets commonly provide protection for the nose.
-
+@60  = ~This class of open-face helmet, made of reinforced leather or metal, covers most of the head, save the face and neck.  These helmets commonly provide protection for the nose.  
 
 STATISTICS:
 
-Special ability: Protects against critical hits
+Armor Class Bonus:  None
+Special:  Protects Against Critical Hits
 Weight: 2
-
 Not Usable By:
- Mage, Bard, Thief~
+ Mage
+ Bard
+ Thief~
 @61  = ~Many warlords have always believed that the best way to be respected was to bring terror to their enemies. To protect himself from this danger, the warlord Malferidon ordered this incredibly powerful helmet to be crafted.
 
 STATISTICS:
@@ -108,12 +114,13 @@ Weight: 2~
 
 STATISTICS:
 
-Damage: 1D4
-Damage type: piercing
+Damage:  1D4 
+Damage type:  piercing
 Weight: 1
-Speed factor: 2
-Proficiency Type: Short sword
-
+Speed Factor: 2 
+Proficiency Type: Dagger
+Type:  1-handed
+Requires: 3 Strength
 Not Usable By:
  Cleric~
 @69  = ~The dark conspiracies of the Cowled Wizards made them many enemies. As a consequence, many powerful objects were created to confront them. This one prevents a mage from performing a counter attack with one of his spells when he gets hit.
@@ -122,27 +129,27 @@ STATISTICS:
 
 25% probability to silence the target for 120 seconds on hit.
 
-Damage: 1D4+2
-Damage type: piercing
+Damage:  1D4 +2
+Damage type:  piercing
 Weight: 1
-Speed factor: 2
-Proficiency Type: Short sword
+Speed Factor: 2 
+Proficiency Type: Dagger
 
 Not Usable By:
  Cleric~
 @70  = ~Quarterstaff~
 @71  = ~Staff of the Necromancer~
-@72  = ~The simplest and humblest of staff weapons, the quarterstaff is a length of wood ranging six to nine feet in length. High quality quarterstaffs are made of stout oak and are shod with metal at both ends.  The quarterstaff must be wielded with both hands.
+@72  = ~The simplest and humblest of staff weapons, the quarterstaff is a length of wood ranging six to nine feet in length.  High quality quarterstaves are made of stout oak and are shod with metal at both ends.  The quarterstaff must be wielded with both hands.  
 
 STATISTICS:
 
-Damage: 1D6
-Damage type: bludgeoning
+Damage:  1D6
+Damage type:  crushing
 Weight: 4
-Speed factor: 4
+Speed Factor: 4
 Proficiency Type: Staff
-
-Not Usable by:~
+Type:  2-handed
+Requires: 5 Strength~
 @73  = ~Students of the difficult and dangerous art of necromancy create these objects to store certain amounts of magic energy, because they never know when they will need it. This rod was created by the necromancer Arkarhatan the Red after some dangerous experiments in order to protect these objects.
 
 STATISTICS:
@@ -151,35 +158,34 @@ Resistance against death when worn.
 Summon undead and control undead once a day, 
 
 Damage: 1D6 +1
-Damage type: bludgeoning
+Damage type: crushing
 Weight: 4
 Speed factor: 4
 Proficiency Type: Staff
 
-Not Usable By:
+Only Usable By:
  Mage~
 @74  = ~Girdle~
 @75  = ~Girdle of Endurance~
-@76  = ~Girdles are generally similar to belts.  Unlike belts, girdles are not used to hold up pants and dungarees, but to carry pouches, scabbards, and the like.
+@76  = ~Girdles are generally similar to belts.  Unlike belts, girdles are not used to hold up pants and dungarees, but to carry pouches, scabbards, and the like.  
 
 STATISTICS:
 
-Weight: 2
-Not Usable By:~
+Weight:  2~
 @77  = ~This girdle was magically enhanced to increases the wearer's constitution. Someone once said that nothing is better than a strong body if you are in for a drink (probably a drunken dwarf).
 
 STATISTICS:
 
-Weight: 2
-Not Usable By:~
+Weight: 2~
 @78  = ~Leather Armor~
 @79  = ~Winter Wolf Fur Armor~
-@80  = ~Basic armor made of thick, wax or water-hardened leather.  It is sturdy protection, not supple like boots or a cloak. Soft garment leathers like that would offer no more protection than common clothing.
+@80  = ~Basic armor made of thick, wax or water-hardened leather.  It is sturdy protection, not supple like boots or a cloak.  Soft garment leathers like that would offer no more protection than common clothing. 
 
 STATISTICS:
 
-AC: 8
+Armor Class: 8
 Weight: 15
+Requires: 4 Strength
 Not Usable By:
  Mage~
 @81  = ~Only the most skilled craftsmen in the realms are able to craft these delicate armors. This armor made of the white fur of the winter wolf improves the charisma of the wearer, as well as providing a high level of protection against the winter chill.
@@ -194,18 +200,18 @@ Weight: 15
 Not Usable By:
  Mage~
 @82  = ~Spear~
-@83  = ~Spear of Lightning~
-@84  = ~One of man's earliest weapons, dating back to the most primitive of times, the first spears were simply wooden poles or sticks sharpened at one end. When man mastered metals, spearheads were made from iron and steel. Having reached this end, weapon crafters began experimenting with different types of spear heads, thus leading to the development of certain polearm types.
-
+@83  = ~Spear +2: 'Stellar Lightning'~
+@84  = ~One of man's earliest weapons, dating back to the most primitive of times, the first spears were simply wooden poles or sticks sharpened at one end.  When man mastered metals, spearheads were made from iron and steel.  Having reached this end, weaponers began experimenting with different types of spear heads, thus leading to the development of certain polearm types.
 
 STATISTICS:
 
-Damage: 1D6
-Damage type: piercing
+Damage:  1D6
+Damage type:  piercing
 Weight: 5
-Speed factor: 6
-Proficiency Type: Spear
-
+Speed Factor: 6
+Proficiency Type: Spear 
+Type:  2-handed
+Requires: 5 Strength
 Not Usable By:
  Cleric
  Mage
@@ -214,7 +220,7 @@ Not Usable By:
 
 STATISTICS:
 
-Damage: 1D6+2 +4 electricity damage
+Damage: 1D6 +2 +4 electricity damage
 Damage type: piercing
 Weight: 5
 Speed factor: 6
@@ -224,24 +230,24 @@ Not Usable By:
  Cleric
  Mage
  Thief~
-@86  = ~Long bow~
-@87  = ~Long bow +1: ‘Ambush’~
-@88  = ~The long bow is similar to the short bow, except that the staff is about as high as the archer is, usually 6 to 6.5 feet.  It has two advantages over the short bow: better range and hence, it is much more accurate.
+@86  = ~Long Bow~
+@87  = ~Long Bow +1: ‘Ambush’~
+@88  = ~The long bow is similar to the short bow, except that the staff is about as high as the archer is, usually 6 to 6.5 feet.  It has two advantages over the short bow: better range and hence, it is much more accurate.  
 
 STATISTICS:
 
-Damage:
-THAC0: +1
+THACO:  +1 bonus
 Weight: 3
-Speed factor: 7
-Proficiency Type: Long bow
-
+Speed Factor: 7
+Proficiency Type: Long Bow
+Type:  2-handed
+Requires: 6 Strength
 Not Usable By:
  Druid
  Cleric
  Mage
  Thief~
-@89  = ~This magic bow is designed mainly for archers to harass the enemy with arrows, shooting arrows at the enemy, moving out of their reach and attacking them again. The magic of this bow hastens the person who uses it, so he can run from the enemy if the latter counters the attack.
+@89  = ~This magic bow is designed mainly for archers to harass the enemy with arrows, shooting arrows at the enemy, moving out of their reach and attacking them again. The enchantments on this bow hastens the person who uses it, so he can run from the enemy if the latter counters the attack.
 
 In addition, it allows the wielder to create an illusion of himself once a day, while at the same time turning him invisible. This detracts the attacks and allows for an early withdrawal.
 
@@ -276,7 +282,7 @@ Double Damage against undead
 THAC0: Bonus +2
 Weight: 1
 Speed factor: 0
-Proficiency Type: Short sword
+Proficiency Type: Dagger
 Type: one-handed
 
 Not Usable By:
@@ -370,7 +376,7 @@ Protection against cold: +40%~
 STATISTICS:
 
 Damage: 1D6
-Damage type: bludgeoning
+Damage type: crushing
 Weight: 4
 Speed factor: 4
 Proficiency Type: Staff~
@@ -381,7 +387,7 @@ STATISTICS:
 Special ability: can heal minor injuries 3 times per day and Raise from death once a day.
 THAC0: +1
 Damage: 1D6 +1
-Damage type: bludgeoning
+Damage type: crushing
 Weight: 3
 Speed factor: 1
 Proficiency Type: Staff
