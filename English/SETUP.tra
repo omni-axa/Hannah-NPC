@@ -269,7 +269,7 @@ Not Usable By:
 @90  = ~Zarnon~
 @91  = ~Bloody Mouth~
 @92  = ~Daniela~
-@93  = ~Richard Blackknife~
+@93  = ~Richard Black-knife~
 @94  = ~Roktar~
 @95  = ~Tobas~
 @96  = ~Dagger of the Grave Robbers~
@@ -277,16 +277,15 @@ Not Usable By:
 
 STATISTICS:
 
-Damage: 1D4 + 2
-Double Damage against undead
+Damage: 1D4 + 2 (double damage vs. undead)
 THAC0: Bonus +2
 Weight: 1
 Speed factor: 0
 Proficiency Type: Dagger
-Type: one-handed
+Type: 1-handed
 
 Not Usable By:
-Cleric~
+ Cleric~
 @98  = ~Baranin's Documents~
 @99  = ~These are Baranin's documents. It is a purchase contract concerning his property.~
 @100 = ~Baranin~
@@ -299,24 +298,25 @@ Cleric~
 
 STATISTICS:
 
-Special Ability: Immunity to poison
-The wearer is immune to silence
+Immunity to poison
+Immunity to Silence
 Charisma -2~
 @107 = ~Improved Irenicus~
 @108 = ~Scimitar~
 @109 = ~Scimitar +3: ‘Sting of the Desert Spider’~
-@110 = ~The long, curved, single-edged blade is characteristic of both the saber and the scimitar, even though their origins lie in different parts of Faerun. Whereas the saber was intended mainly for horsemen, mainly due to its versatility, the scimitar has a heavier oriental influence.
+@110 = ~The long, curved, single-edged blade is characteristic of both the sabre and the scimitar, even though their origins lie in different parts of Faerun.  Whereas the sabre was intended mainly for horsemen, mainly due to its versatility, the scimitar has a heavier oriental influence.  The "shamshir", as it was originally called, is larger, has a greater curve to it, and is tapered to an elongated, sharp point.  The effect of this is that it is slightly slower but tends to be more effective and deadly in combat.
 
 STATISTICS:
 
-Damage: 1D8
-Damage type: Slashing
+Damage:  1D8
+Damage type:  slashing
 Weight: 4
-Proficiency Type: Long sword
-Speed factor: 5
-Type: one-handed
-
+Speed Factor: 5
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type:  1-handed
+Requires: 10 Strength
 Not Usable By:
+ Cleric
  Mage~
 @111 = ~The sword belonged to Sultan Rakashasa, who died in the final battle with Irenicus. The blade of this sword is impregnated with spider venom and a slightest cut with it poisons the victim.
 
@@ -325,12 +325,12 @@ STATISTICS:
 Poison damage: 2 damage points per second
 Duration of the poisoning: 10 seconds
 THAC0: +3
-Damage: 1D8+3
+Damage: 1D8 +3
 Damage type: Slashing
 Weight: 3
 Speed factor: 4
 Proficiency Type: Scimitar/Wakizashi/Ninja-To
-Type: one-handed
+Type: 1-handed
 
 Not Usable By:
  Cleric
@@ -338,14 +338,14 @@ Not Usable By:
  Thief~
 @112 = ~Robe~
 @113 = ~Robe of Elemental Defense~
-@114 = ~Form and material of a cloak can vary. The most conventional form consists of a circular piece of cloth, which has a hole for the head incorporated in the middle. The cloak is held together by a chain, brooch, pin or cord.~
-@115 = ~According to the most outstanding experts this robe is the best clothing available to travel the planes. As a wise man once said: "You never know what the weather will be."
+@114 = ~The cloak can be made in every possible shape with just about every type of fabric.  The most common forms are a circular piece of fabric with a hole in the center for the head, and fabric draped from neck, connected by a chain, brooch, cord, or pins.~
+@115 = ~According to the most outstanding experts this robe is the best clothing available to travel the planes. As a wise man once said: "You never know what the weather might bring."
 
 STATISTICS:
 
-Protection against electricity: +30%
-Protection against cold: +30%
-Protection against fire: +30%~
+Protection against Electricity: +30%
+Protection against Cold: +30%
+Protection against Fire: +30%~
 @116 = ~Jon Irenicus~
 @117 = ~Great Sultan Rakashasa~
 @118 = ~Improved Hell Djinn~
@@ -357,29 +357,30 @@ Protection against fire: +30%~
 
 STATISTICS:
 
-Immunity against cold once a day.
+Immunity against cold once a day
 Protection against cold: +10%~
 @124 = ~Nizidramanii'yt~
 @125 = ~Improved Hell Dragon~
 @126 = ~Ring~
 @127 = ~Ring of Protection against Cold~
-@128 = ~A ring is a small band of precious metal that is used as jewelry.  Some rare  rings have had enchantments placed upon them that confer various magical abilities.  These rings are highly sought after, especially by those of the adventuring profession.
-~
-@129 = ~The origin of this ring is unknown. Perhaps it was created by a mage who tried to travel to a colder reaches of the elementary plane of water.
+@128 = ~A ring is a small band of precious metal that is used as jewelry.  Some rare rings have had enchantments placed upon them that confer various magical abilities.  These rings are highly sought after, especially by those of the adventuring profession.~
+@129 = ~The origin of this ring is unknown. Perhaps it was created by a mage who tried to travel to the colder reaches of the elementary plane of water.
 
 STATISTICS:
 
 Protection against cold: +40%~
 @130 = ~Staff of Saint Ranan~
-@131 = ~The simplest and humblest of staff weapons, the quarterstaff is a length of wood ranging six to nine feet in length. High quality quarterstaffs are made of stout oak and are shod with metal at both ends.  The quarterstaff must be wielded with both hands.
+@131 = ~The simplest and humblest of staff weapons, the quarterstaff is a length of wood ranging six to nine feet in length.  High quality quarterstaves are made of stout oak and are shod with metal at both ends.  The quarterstaff must be wielded with both hands.  
 
 STATISTICS:
 
-Damage: 1D6
-Damage type: crushing
+Damage:  1D6
+Damage type:  crushing
 Weight: 4
-Speed factor: 4
-Proficiency Type: Staff~
+Speed Factor: 4
+Proficiency Type: Staff
+Type:  2-handed
+Requires: 5 Strength~
 @132 = ~Saint Ranan was a hermit with a big heart, who travelled among the villages, in order to help people in need. It is said that when he touched a wounded man with his stick, the man was healed, it is also said that he had the power to raise the dead. Saint Ranan was loved by all, as a payment for his services, he only asked for some food to continue his journey. It is said that Saint Ranan was killed by bandits and the power of his staff had been forgotten until now.
 
 STATISTICS:
