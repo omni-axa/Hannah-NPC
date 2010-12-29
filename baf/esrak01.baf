@@ -4,7 +4,7 @@ IF
 	Global("prepspells","LOCALS",0)
 THEN
 	RESPONSE #100
-            DisplayStringHead(Myself,~Prueba el poder de mi magia.~)
+            DisplayStringHead(Myself,@0)
 		ApplySpell(Myself,WIZARD_FIRE_SHIELD_RED)
 		ApplySpell(Myself,WIZARD_MIRROR_IMAGE)
                 ApplySpell(Myself,WIZARD_PROTECTION_FROM_EVIL)

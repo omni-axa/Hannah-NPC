@@ -10,7 +10,7 @@ IF
 	HPLT(Myself,10)
 THEN
 	RESPONSE #100
-		DisplayStringHead(Myself,~Tu ultimo golpe hace el Troll añicos. Para tu horror ves como su restos se empiezan a transformar en pequeños Troll~)
+		DisplayStringHead(Myself,@0)
 		SmallWait(1)
 		CreateVisualEffectObject("ICCSWOUI",Myself)
 		Wait(1)

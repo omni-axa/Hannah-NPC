@@ -24,7 +24,7 @@ IF
 	Global("Contingency","LOCALS",0)
 THEN
 	RESPONSE #100
-                DisplayStringHead(Myself,~¿Crees que puedes vencerme?, aun guardo algunos ases bajo mi manga.~)
+                DisplayStringHead(Myself,@0)
 		CreateVisualEffect("SPROTECT",[1763.1901])
                 CreateVisualEffect("SPDISPMA",[1763.1901])
                 CreateCreature("ESRAK01",[1763.1901],0)
@@ -37,9 +37,9 @@ THEN
                 CreateVisualEffect("SPDISPMA",[1805.2146])
                 CreateCreature("DEMGLAB2",[1805.2146],0)
                 PlaySound("EFF_M23C")
-		DisplayString(Myself,~Contingencia - Protección contra armas mágicas~)
-		DisplayString(Myself,~Contingencia - Retorno de conjuros~)
-		DisplayString(Myself,~Contingencia - Doble engañoso~)
+		DisplayString(Myself,@1)
+		DisplayString(Myself,@2)
+		DisplayString(Myself,@3)
 		ApplySpell(Myself,WIZARD_ABSOLUTE_IMMUNITY)
 		ApplySpell(Myself,WIZARD_SPELL_TURNING)
 		ApplySpell(Myself,WIZARD_MISLEAD)
@@ -54,7 +54,7 @@ IF
 	Global("Contingency","LOCALS",1)
 THEN
 	RESPONSE #100
-		DisplayString(Myself,~Contingencia - Protección contra armas mágicas~)
+		DisplayString(Myself,@1)
 		ApplySpell(Myself,WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
 		SetGlobal("Contingency","LOCALS",2)
 END
@@ -64,12 +64,12 @@ IF
 	Global("SpellTrigger","LOCALS",0)
 THEN
 	RESPONSE #100
-		DisplayString(Myself,~Disparador de conjuros - activado~)
+		DisplayString(Myself,@4)
 		ReallyForceSpell(Myself,WIZARD_FIRE_SHIELD_RED)
 		ReallyForceSpell(Myself,WIZARD_FIRE_SHIELD_BLUE)
-		DisplayString(Myself,~Disparador de conjuros - Globo de invulnerabilidad~)
+		DisplayString(Myself,@5)
 		ReallyForceSpell(Myself,WIZARD_GLOBE_OF_INVULNERABILITY)
-		DisplayString(Myself,~Disparador de conjuros -  Doble engañoso~)
+		DisplayString(Myself,@6)
 		ReallyForceSpell(Myself,WIZARD_MISLEAD)
 		SetGlobal("SpellTrigger","LOCALS",1)
 END
@@ -150,7 +150,7 @@ IF
 	Global("SpellTrigger","LOCALS",1)
 THEN
 	RESPONSE #100
-		DisplayString(Myself,~Secuenciador de conjuros - activado~)
+		DisplayString(Myself,@7)
 		ReallyForceSpell(LastSeenBy(Myself),WIZARD_SPELL_STRIKE)
 		ReallyForceSpell(LastSeenBy(Myself),WIZARD_POWER_WORD_KILL)
 		ReallyForceSpell(LastSeenBy(Myself),WIZARD_ICE_STORM)

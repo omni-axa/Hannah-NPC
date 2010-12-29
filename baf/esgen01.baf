@@ -17,11 +17,11 @@ IF
 	!StateCheck(Myself,STATE_REALLY_DEAD)
 THEN
 	RESPONSE #100
-		DisplayString(Myself,~Disparador de conjuros - activado~)
+		DisplayString(Myself,@0)
 		ReallyForceSpell(Myself,WIZARD_PROTECTION_FROM_FIRE)
-		DisplayString(Myself,~Disparador de conjuros - Escudo ígneo (rojo)~)
+		DisplayString(Myself,@1)
 		ReallyForceSpell(Myself,WIZARD_FIRE_SHIELD_RED)
-		DisplayString(Myself,~Disparador de conjuros - Globo de invulnerabilidad~)
+		DisplayString(Myself,@2)
 		ReallyForceSpell(Myself,WIZARD_GLOBE_OF_INVULNERABILITY)
 		SetGlobal("SpellTrigger","LOCALS",1)
 END
@@ -126,11 +126,11 @@ IF
 	!StateCheck(Myself,STATE_REALLY_DEAD)
 THEN
 	RESPONSE #100
-		DisplayString(Myself,~Contingencia en cadena - Manto mejorado~)
+		DisplayString(Myself,@3)
 		ApplySpell(Myself,WIZARD_IMPROVED_MANTLE)
-		DisplayString(Myself,~Contingencia en cadena - Retorno de conjuros~)
+		DisplayString(Myself,@4)
 		ApplySpell(Myself,WIZARD_SPELL_TURNING)
-		DisplayString(Myself,~Contingencia en cadena - Doble engañoso~)
+		DisplayString(Myself,@5)
 		ApplySpell(Myself,WIZARD_GLOBE_OF_INVULNERABILITY)
 		SetGlobal("Prep2","LOCALS",1)
 END
@@ -142,7 +142,7 @@ IF
 	!StateCheck(Myself,STATE_REALLY_DEAD)
 THEN
 	RESPONSE #100
-		DisplayString(Myself,~Contingencia - Protección contra armas mágicas~)
+		DisplayString(Myself,@6)
 		ApplySpell(Myself,WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
 		SetGlobal("Prep2","LOCALS",2)
 END
@@ -163,14 +163,14 @@ IF
 	!StateCheck(Myself,STATE_REALLY_DEAD)
 THEN
 	RESPONSE #100
-		DisplayString(Myself,~Secuenciador de conjuros - activado~)
-		DisplayString(Myself,~Secuenciador de conjuros - Confusión~)
+		DisplayString(Myself,@7)
+		DisplayString(Myself,@8)
 		ReallyForceSpell(SecondNearestEnemyOf(Myself),WIZARD_CONFUSION)
-		DisplayString(Myself,~Secuenciador de conjuros -  Bola de fuego~)
+		DisplayString(Myself,@9)
 		ReallyForceSpell(NearestEnemyOf(Myself),WIZARD_FIREBALL)
-		DisplayString(Myself,~Secuenciador de conjuros -  Bola de fuego~)
+		DisplayString(Myself,@9)
 		ReallyForceSpell(NearestEnemyOf(Myself),WIZARD_FIREBALL)
-                DisplayString(Myself,~Secuenciador de conjuros -  Bola de fuego~)
+                DisplayString(Myself,@9)
 		ReallyForceSpell(NearestEnemyOf(Myself),WIZARD_FIREBALL)
 		SetGlobal("SpellTrigger","LOCALS",1)
 END
